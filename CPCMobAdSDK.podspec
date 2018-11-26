@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of CPCMobAdSDK.'
 
 
@@ -16,11 +16,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/wo1348184465/CPCMobAdSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  # s.ios.deployment_target = '8.0'
 
-  
+  s.platform    = :ios, "8.0"                  #支持的平台和版本号
+
+
   s.resource_bundles = {
-      'CPCMobAdSDK' => ['CPCMobAdSDKTest/Source/*.{png}']
+      'CPCMobAdSDK' => ['CPCMobAdSDK/Source/*.{png}']
       #'CPCSource' => ['CPCMobAdSDKTest/Source/*.{png}']
 
   }
@@ -37,7 +39,7 @@ TODO: Add long description of the pod here.
   # s.dependency 'CPCBaiduMobAdSDK' ,'0.0.1'
 
 
-  s.vendored_frameworks = 'CPCMobAdSDKTest/*.{framework}' 
+  s.vendored_frameworks = 'CPCMobAdSDK/*.{framework}' 
 
 end
 
