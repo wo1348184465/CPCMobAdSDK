@@ -1,0 +1,45 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CPCMobAdSDK (0.0.9):
+    - AFNetworking (= 3.1.0)
+    - Masonry (= 1.1.0)
+    - WebViewJavascriptBridge (= 6.0.3)
+  - Masonry (1.1.0)
+  - WebViewJavascriptBridge (6.0.3)
+
+DEPENDENCIES:
+  - CPCMobAdSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Masonry
+    - WebViewJavascriptBridge
+
+EXTERNAL SOURCES:
+  CPCMobAdSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CPCMobAdSDK: 8b7142b9d72955bfd6b9f34ad01e4d55e2943a90
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
+
+PODFILE CHECKSUM: 541ac69bbcbe666df0d25ae7cc69862fdc4c0fa3
+
+COCOAPODS: 1.5.3

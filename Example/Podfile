@@ -1,0 +1,15 @@
+use_frameworks!
+workspace 'CPCMobAdSDKTest.xcworkspace'
+xcodeproj 'CPCMobAdSDKTest.xcodeproj'
+
+
+target 'CPCMobAdSDKTest_Example' do
+  pod 'CPCMobAdSDK', :path => '../'
+ 
+
+  target 'CPCMobAdSDKTest_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

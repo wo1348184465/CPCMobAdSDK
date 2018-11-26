@@ -1,0 +1,56 @@
+{
+  "name": "CPCMobAdSDK",
+  "version": "0.1.1",
+  "summary": "CPCMobAdSDK  includes three graphic ads, group ads, graphic ads, banner ads, Video ads and Launch ads. CPC was replaced with frame adaptation by masonry.add BaiduMobAdSDK",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://www.jianshu.com/u/5f9dd7c82945",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "丁昊": "dinghao@qutoutiao.net"
+  },
+  "source": {
+    "git": "git@git.qutoutiao.net:dinghao/CPCMobAdSDK.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "resource_bundles": {
+    "CPCMobAdSDK": [
+      "CPCMobAdSDKTest/Source/*.{png}"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "MessageUI",
+    "Foundation",
+    "WebKit",
+    "CoreMedia",
+    "CoreMedia",
+    "CoreMotion",
+    "SystemConfiguration",
+    "CoreLocation",
+    "CoreTelephony",
+    "adSupport",
+    "AVFoundation",
+    "SafariServices"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "3.1.0"
+    ],
+    "Masonry": [
+      "1.1.0"
+    ],
+    "WebViewJavascriptBridge": [
+      "6.0.3"
+    ],
+    "CPCBaiduMobAdSDK": [
+      "0.0.1"
+    ]
+  },
+  "vendored_frameworks": "CPCMobAdSDKTest/*.{framework}"
+}
