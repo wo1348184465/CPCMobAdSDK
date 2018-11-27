@@ -30,7 +30,7 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit','Foundation'
   #s.subspec 'BauduMobAdSDK' do |ss|
-  ss.frameworks = 'UIKit','MessageUI','WebKit','CoreMedia' ,'Foundation','CoreMedia','CoreMotion','SystemConfiguration','CoreLocation','CoreTelephony','adSupport','AVFoundation'
+  s.frameworks = 'UIKit','MessageUI','WebKit','CoreMedia' ,'Foundation','CoreMedia','CoreMotion','SystemConfiguration','CoreLocation','CoreTelephony','adSupport','AVFoundation'
       #end
   s.libraries = 'c++'
 
