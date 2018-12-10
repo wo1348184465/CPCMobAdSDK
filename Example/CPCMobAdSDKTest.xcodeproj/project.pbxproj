@@ -27,8 +27,6 @@
 		C64A6277219301C900E80891 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A6275219301C900E80891 /* TableViewController.m */; };
 		C64A64C2219320D700E80891 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C64A64C0219320D700E80891 /* libc++.tbd */; };
 		C64A655A2199AF6D00E80891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64A65592199AF6D00E80891 /* Main.storyboard */; };
-		C64A6600219C1E4000E80891 /* CPCHook.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A65FF219C1E4000E80891 /* CPCHook.m */; };
-		C64A6604219C1E6B00E80891 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = C64A6602219C1E6B00E80891 /* fishhook.c */; };
 		C6CE766621A57BA0005C243A /* CPCMobAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CE764721A56425005C243A /* CPCMobAdSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,10 +85,6 @@
 		C64A6276219301C900E80891 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		C64A64C0219320D700E80891 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		C64A65592199AF6D00E80891 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		C64A65FE219C1E4000E80891 /* CPCHook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CPCHook.h; sourceTree = "<group>"; };
-		C64A65FF219C1E4000E80891 /* CPCHook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CPCHook.m; sourceTree = "<group>"; };
-		C64A6602219C1E6B00E80891 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
-		C64A6603219C1E6B00E80891 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
 		C6CE764721A56425005C243A /* CPCMobAdSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CPCMobAdSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6CE766521A57B7E005C243A /* CPCMobAdSDKTest_Example copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CPCMobAdSDKTest_Example copy-Info.plist"; path = "/Users/dinghao/Documents/CPC/CPCMobAdSDK/Example/CPCMobAdSDKTest_Example copy-Info.plist"; sourceTree = "<absolute>"; };
 		C6CE768521A5801D005C243A /* CPCMobAdSDKTest_Example copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CPCMobAdSDKTest_Example copy2-Info.plist"; path = "/Users/dinghao/Documents/CPC/CPCMobAdSDK/Example/CPCMobAdSDKTest_Example copy2-Info.plist"; sourceTree = "<absolute>"; };
@@ -170,13 +164,10 @@
 			children = (
 				6003F59C195388D20070C39A /* CPCAppDelegate.h */,
 				6003F59D195388D20070C39A /* CPCAppDelegate.m */,
-				C64A6601219C1E6B00E80891 /* fishhook */,
 				C64A64C0219320D700E80891 /* libc++.tbd */,
 				C64A65592199AF6D00E80891 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* CPCViewController.h */,
 				6003F5A6195388D20070C39A /* CPCViewController.m */,
-				C64A65FE219C1E4000E80891 /* CPCHook.h */,
-				C64A65FF219C1E4000E80891 /* CPCHook.m */,
 				C64A6276219301C900E80891 /* TableViewController.h */,
 				C64A6275219301C900E80891 /* TableViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -225,15 +216,6 @@
 				229A4E2EC4D372F1234D6A72 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
-			sourceTree = "<group>";
-		};
-		C64A6601219C1E6B00E80891 /* fishhook */ = {
-			isa = PBXGroup;
-			children = (
-				C64A6602219C1E6B00E80891 /* fishhook.c */,
-				C64A6603219C1E6B00E80891 /* fishhook.h */,
-			);
-			path = fishhook;
 			sourceTree = "<group>";
 		};
 		E60026C04ED10BF11AC4C6CC /* Pods */ = {
@@ -377,13 +359,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CPCMobAdSDKTest_Example/Pods-CPCMobAdSDKTest_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,11 +414,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C64A6600219C1E4000E80891 /* CPCHook.m in Sources */,
 				6003F59E195388D20070C39A /* CPCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* CPCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				C64A6604219C1E6B00E80891 /* fishhook.c in Sources */,
 				C64A6277219301C900E80891 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

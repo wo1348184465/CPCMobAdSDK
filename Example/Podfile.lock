@@ -14,11 +14,9 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - CPCMobAdSDK (0.0.2):
+  - CPCMobAdSDK (0.0.3.1):
     - AFNetworking (= 3.1.0)
-    - Masonry (= 1.1.0)
     - WebViewJavascriptBridge (= 6.0.3)
-  - Masonry (1.1.0)
   - WebViewJavascriptBridge (6.0.3)
 
 DEPENDENCIES:
@@ -27,7 +25,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - Masonry
     - WebViewJavascriptBridge
 
 EXTERNAL SOURCES:
@@ -36,8 +33,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CPCMobAdSDK: f75a4875beed13d8c3a4ec8c2f6b7c48c5af1d21
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  CPCMobAdSDK: e9cf897ded95fac7b4fb8be8496b0765dd982b3b
   WebViewJavascriptBridge: 7f5bc4d3581e672e8f32bd0f812d54bc69bb8e29
 
 PODFILE CHECKSUM: 541ac69bbcbe666df0d25ae7cc69862fdc4c0fa3

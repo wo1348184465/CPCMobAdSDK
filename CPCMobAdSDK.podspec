@@ -2,12 +2,13 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
-  s.version          = '0.0.4'
+  s.version          = '0.0.3.1'
   s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 '
 
 
   s.description      = <<-DESC
 CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏
+去掉Masonry依赖,修复一些因为Masonry的界面问题
                        DESC
   s.homepage         = 'https://github.com/wo1348184465/CPCMobAdSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,14 +31,13 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit','Foundation'
   #s.subspec 'BauduMobAdSDK' do |ss|
-  s.frameworks = 'UIKit','MessageUI','WebKit','CoreMedia' ,'Foundation','CoreMedia','CoreMotion','SystemConfiguration','CoreLocation','CoreTelephony','adSupport','AVFoundation'
+  # s.frameworks = 'UIKit','MessageUI','WebKit','CoreMedia' ,'Foundation','CoreMedia','CoreMotion','SystemConfiguration','CoreLocation','CoreTelephony','adSupport','AVFoundation'
       #end
   s.libraries = 'c++'
 
   s.dependency 'AFNetworking', '3.1.0'
-  s.dependency 'Masonry', '1.1.0'
   s.dependency 'WebViewJavascriptBridge', '6.0.3'
-  s.dependency 'CPCBaiduMobAdSDK' ,'0.0.1'
+  # s.dependency 'CPCBaiduMobAdSDK' ,'0.0.1'
 
 
   s.vendored_frameworks = 'CPCMobAdSDK/*.{framework}' 

@@ -1,8 +1,8 @@
 {
   "name": "CPCMobAdSDK",
-  "version": "0.0.2",
-  "summary": "A short description of CPCMobAdSDK.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.3.1",
+  "summary": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏",
+  "description": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏\n去掉Masonry依赖,修复一些因为Masonry的界面问题",
   "homepage": "https://github.com/wo1348184465/CPCMobAdSDK",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wo1348184465/CPCMobAdSDK.git",
-    "tag": "0.0.2"
+    "tag": "0.0.3.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -27,12 +27,10 @@
     "UIKit",
     "Foundation"
   ],
+  "libraries": "c++",
   "dependencies": {
     "AFNetworking": [
       "3.1.0"
-    ],
-    "Masonry": [
-      "1.1.0"
     ],
     "WebViewJavascriptBridge": [
       "6.0.3"

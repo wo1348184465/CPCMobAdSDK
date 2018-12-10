@@ -7,7 +7,6 @@
 //
 #import "TableViewController.h"
 #import "CPCViewController.h"
-
 #import <CPCMobAdSDK/CPCCoreServer.h>
 @interface CPCViewController ()<CPCADViewDelegate>
 
@@ -52,13 +51,9 @@ int i = 0;
     NSUserDefaults * userDefault = [NSUserDefaults standardUserDefaults];
     
     [userDefault setValue:adid forKey:@"adidDef"];
+    [userDefault setValue:@(self.isRightButton.selected) forKey:@"right"];
+    [userDefault setValue:@(self.changeButton.selected) forKey:@"change"];
     [userDefault synchronize];
-    
-    
-    
-    
-    
-    
     
     CPCAdViewConfig * config = [[CPCAdViewConfig alloc] init];
     
@@ -75,7 +70,7 @@ int i = 0;
     
     if (self.isRightButton.selected == 1) {
         config.isRight = YES;
-
+        
     }
     else
     {
@@ -85,7 +80,7 @@ int i = 0;
     config.time = @"12:30";
     //    config.push = self;
     [config setVideoType:0];
-    //    config.clickSize = CGSizeMake(0, 200);
+    //        config.clickSize = CGSizeMake(0, 200);
     //    config.style = 404100;
     
     
@@ -101,48 +96,32 @@ int i = 0;
         // 有百度打底
         if (adViewModel.flag == 1) {
             
-            NSLog(@"----------union = %@",adViewModel.unionName);
-            NSLog(@"----------union = %@",adViewModel.appid);
-            
-            NSLog(@"----------union = %@",adViewModel.adslotid);
-            
-            NSLog(@"----------union = %@",adViewModel.imp);
-            
-            NSLog(@"----------union = %@",adViewModel.clk);
-            
-            // 主动上报点击和展示
-            [[CPCCoreServer sharedInstance] cpcOnClickReport:adViewModel];
-            [[CPCCoreServer sharedInstance] cpcOnShowReport:adViewModel];
-            
+            //
+            //            UIView * adView = [[CPCCoreServer sharedInstance] cpcShowView:adViewModel setDelegate:self];
+            //
+            //            [self.view addSubview:adView];
             
         }
         else // 正常逻辑
         {
             adViewModel.pushRootVC = self;
             
-            NSLog(@" ************************************** height == %f",adViewModel.heightForWith);
-
-//            [[CPCCoreServer sharedInstance] getHeight:model :width:];
             UIView * adView = [[CPCCoreServer sharedInstance] cpcShowView:adViewModel setDelegate:self];
             
-            NSLog(@" ************************************** height222 == %f",adViewModel.cellHeight);
-
-            UIView * backV = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, adViewModel.cellHeight)];
-            [backV setBackgroundColor:[UIColor redColor]];
-            [self.view addSubview:backV];
+            
             
             [adView setBackgroundColor:[UIColor grayColor ]];
             if (adView != nil) {
                 
                 CGRect fr = adView.frame;
                 fr.origin.y = 100 * i + 64;
-
+                
                 if (self.changeButton.selected == 1) {
                     
                     
                     adViewModel.width = 300;
-
-                    fr.origin.x = 24;
+                    
+                    fr.origin.x = 0;
                     fr.size.width = 300;
                     [adView setFrame:fr];
                     [self.view addSubview:adView];
@@ -151,18 +130,21 @@ int i = 0;
                 }
                 else
                 {
-              
+                    
                     [adView setFrame:fr];
                     [self.view addSubview:adView];
+                    NSLog(@"高度:-----------------------%f",adView.frame.size.height);
+                    
                     i = i + 1;
                     [self.adViewArr addObject:adView];
                 }
                 
-
+                
             }
             
         }
         
+        NSLog(@" model 高度:**************************************  == %f",adViewModel.cellHeight);
         
         
     } failure:^(NSError *error) {
@@ -174,6 +156,15 @@ int i = 0;
     
 }
 
+- (void)CPCClickCallBack:(UIView *)adview
+{
+    
+}
+
+- (void)CPCDataReportShow:(BOOL)show
+{
+    
+}
 - (IBAction)ActionRefreshADView:(id)sender {
     
     CGFloat fontSize = ([self.fontTextField.text isEqualToString:@""] ? 12 : [self.fontTextField.text floatValue]);
@@ -225,7 +216,7 @@ int i = 0;
 
 - (IBAction)changeFrame:(id)sender {
     self.changeButton.selected = !self.changeButton.selected;
-
+    
 }
 
 #pragma mark -
@@ -245,7 +236,7 @@ int i = 0;
 - (void)resignFirst
 {
     [[UIApplication sharedApplication].keyWindow endEditing:YES];
-
+    
 }
 
 - (void)jumpAction
@@ -261,15 +252,18 @@ int i = 0;
     UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(resignFirst)];
     
     UITapGestureRecognizer * tap2 = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(resignFirst)];
-
+    
     [self.view addGestureRecognizer:tap];
     [self.scrollView addGestureRecognizer:tap2];
-
+    
     NSUserDefaults * userDefault = [NSUserDefaults standardUserDefaults];
     
     self.adIdTextField.text = [userDefault objectForKey:@"adidDef"];
     
     self.styleTextField.text = [userDefault objectForKey:@"styleDef"];
+    
+    self.isRightButton.selected = [[userDefault objectForKey:@"right"] intValue];
+    self.changeButton.selected = [[userDefault objectForKey:@"change"] intValue];
     
     
     
@@ -354,7 +348,7 @@ int i = 0;
         {
             adViewModel.pushRootVC = self;
             
-//            NSLog(@"高度 -----------------------%f",[[CPCCoreServer sharedInstance] cpcAdViewForHeight:adViewModel]);
+            //            NSLog(@"高度 -----------------------%f",[[CPCCoreServer sharedInstance] cpcAdViewForHeight:adViewModel]);
             
             
             
@@ -408,7 +402,7 @@ int i = 0;
     
     NSMutableDictionary * adBody = [[NSMutableDictionary alloc]initWithCapacity: 0];
     [adBody setObject:@"7277638" forKey:@"id"];
- 
+    
     
 }
 
@@ -440,3 +434,4 @@ int i = 0;
 
 
 @end
+

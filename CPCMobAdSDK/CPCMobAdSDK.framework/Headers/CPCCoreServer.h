@@ -98,8 +98,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param adViewModel 物料model
  @return 返回ADView
  */
-- (UIView *)cpcShowView:(CPCADViewConfigModel *)adViewModel
-            setDelegate:(id<CPCADViewDelegate>)delegate;
+- (UIView *)cpcShowView:(CPCADViewConfigModel *)adViewModel setDelegate:(id<CPCADViewDelegate>)delegate;
 
 
 
