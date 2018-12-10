@@ -24,6 +24,8 @@
 
 @property (nonatomic, strong) NSArray * clk;
 
+@property (nonatomic, strong) NSObject * baiduAdObject;
+
 //------------------------------百度 打底------------------------------//
 
 
