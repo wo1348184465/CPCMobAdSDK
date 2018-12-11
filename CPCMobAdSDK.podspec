@@ -3,12 +3,13 @@
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
   s.version          = '0.0.3.1'
-  s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 '
+  s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 ,优化Appstore应用内打开需要两次返回的问题 '
 
 
   s.description      = <<-DESC
 CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏
-去掉Masonry依赖,修复一些因为Masonry的界面问题
+去掉Masonry依赖,修复一些因为Masonry的界面问题 
+优化Appstore应用内打开需要两次返回的问题
                        DESC
   s.homepage         = 'https://github.com/wo1348184465/CPCMobAdSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'

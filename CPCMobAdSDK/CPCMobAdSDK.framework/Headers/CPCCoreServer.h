@@ -16,7 +16,7 @@
 
 
 
-
+#define CPCSDK_VERSION @"0.0.3.1"
 
 
 NS_ASSUME_NONNULL_BEGIN
