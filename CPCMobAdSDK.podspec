@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏
-删除Masonry,修复Masonry引起的一些问题
+删除Masonry,修复Masonry引起的一些问题,优化下载类广告需要二次点击返回
                        DESC
   s.homepage         = 'https://github.com/wo1348184465/CPCMobAdSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
