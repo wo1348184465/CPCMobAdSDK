@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "CPCMobAdNativeAdObject.h"
+#import "CPCMobAdNative.h"
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CPCMobAdNativeAdView : UIView
@@ -23,7 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
  * 添加品牌名称brandName
  */
 -(id)initWithFrame:(CGRect)frame
-            Object:(CPCMobAdNativeAdObject *)obj;
+            Object:(CPCMobAdNativeAdObject *)obj
+            native:(CPCMobAdNative * )native;
 
 
 

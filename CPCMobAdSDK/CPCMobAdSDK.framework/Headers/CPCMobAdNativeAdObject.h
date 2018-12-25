@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIkit.h>
+@class CPCMobAdNative;
+
 NS_ASSUME_NONNULL_BEGIN
 
 @interface CPCMobAdNativeAdObject : NSObject
@@ -63,7 +65,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 发送点击
  */
--(void)handleClick:(UIView*)view;
+-(void)handleClick:(UIView*)view native:(CPCMobAdNative *)native;
 
 
 
@@ -76,7 +78,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)reportShow:(NSArray *)impArr;
 
 
-- (void)viewPushController:(UIViewController *)currentCtrol config:(CPCMobAdNativeAdObject *)config view:(UIView *)view;
+- (void)viewPushController:(UIViewController *)currentCtrol config:(CPCMobAdNativeAdObject *)config view:(UIView *)view native:(CPCMobAdNative *)native;
 
 
 

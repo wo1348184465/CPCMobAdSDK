@@ -30,19 +30,19 @@
 		</data>
 		<key>Headers/CPCMobAdNative.h</key>
 		<data>
-		UDJ5RiNxTgXPaPxM6MT1u3p6yyM=
+		xVIa5vYMfBhG/PoUaaLhm1P42Xg=
 		</data>
 		<key>Headers/CPCMobAdNativeAdDelegate.h</key>
 		<data>
-		C3F6YZQs7BRvwyKeyXIGDrAa0j0=
+		M6EZgUjIfxeEzZR2OqQqL44oBY4=
 		</data>
 		<key>Headers/CPCMobAdNativeAdObject.h</key>
 		<data>
-		v3fTGp5gocldXNhPqGA+NetTC/4=
+		hzR1zddKN6hw2zXL7L9g/as0VWg=
 		</data>
 		<key>Headers/CPCMobAdNativeAdView.h</key>
 		<data>
-		C3jzwd5gG+UUzWYvw04kVMwZSHM=
+		AKqQH7PmHcSaiMAlbh/2Qu/+mp8=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -121,44 +121,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UDJ5RiNxTgXPaPxM6MT1u3p6yyM=
+			xVIa5vYMfBhG/PoUaaLhm1P42Xg=
 			</data>
 			<key>hash2</key>
 			<data>
-			gkLCFtGrgZWVYO8K8y9zR7Hbaudq/0j0tXuIZ8gjPUs=
+			MrF4y/927qjbai+8DjtvHxEyk0tAm8brzpMJr+XJJjY=
 			</data>
 		</dict>
 		<key>Headers/CPCMobAdNativeAdDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C3F6YZQs7BRvwyKeyXIGDrAa0j0=
+			M6EZgUjIfxeEzZR2OqQqL44oBY4=
 			</data>
 			<key>hash2</key>
 			<data>
-			5/B+tVT23/2+wMcy4+8K+b0w1Nbixhk+KsAAVN3NC54=
+			UguubEL27K1Mjaex0JoxqI8y4kgsd8CXYFt+YJGXEv8=
 			</data>
 		</dict>
 		<key>Headers/CPCMobAdNativeAdObject.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v3fTGp5gocldXNhPqGA+NetTC/4=
+			hzR1zddKN6hw2zXL7L9g/as0VWg=
 			</data>
 			<key>hash2</key>
 			<data>
-			N2IDsoE3y7UOXdJvlagJs372bIR8LMCrpj7rjIuu1HA=
+			W7tqObcZO+ArQY4wmaYVMN7U1ehSxxje8LzpUHzDk7A=
 			</data>
 		</dict>
 		<key>Headers/CPCMobAdNativeAdView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			C3jzwd5gG+UUzWYvw04kVMwZSHM=
+			AKqQH7PmHcSaiMAlbh/2Qu/+mp8=
 			</data>
 			<key>hash2</key>
 			<data>
-			EcG5i7FUIrkO+ju169zDuvVa3W8lzDKLbsqwqMu4XC0=
+			2Lfwe/7RL3bQScAUdDE5hkQwnULkwOO6uMLnbP2Ef/k=
 			</data>
 		</dict>
 	</dict>
