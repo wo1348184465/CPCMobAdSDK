@@ -26,6 +26,7 @@
 		C64A6277219301C900E80891 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A6275219301C900E80891 /* TableViewController.m */; };
 		C64A64C2219320D700E80891 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C64A64C0219320D700E80891 /* libc++.tbd */; };
 		C64A655A2199AF6D00E80891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64A65592199AF6D00E80891 /* Main.storyboard */; };
+		C681E46A21D36B9F006F6462 /* CustomLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C681E46821D36B9E006F6462 /* CustomLayoutViewController.m */; };
 		C6B1475121BE5A9B000472EC /* CPCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B1475021BE5A9B000472EC /* CPCViewController.m */; };
 		C6CE766621A57BA0005C243A /* CPCMobAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CE764721A56425005C243A /* CPCMobAdSDK.framework */; };
 /* End PBXBuildFile section */
@@ -83,6 +84,8 @@
 		C64A6276219301C900E80891 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		C64A64C0219320D700E80891 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		C64A65592199AF6D00E80891 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C681E46821D36B9E006F6462 /* CustomLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayoutViewController.m; sourceTree = "<group>"; };
+		C681E46921D36B9F006F6462 /* CustomLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayoutViewController.h; sourceTree = "<group>"; };
 		C6B1474F21BE5A9B000472EC /* CPCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCViewController.h; sourceTree = "<group>"; };
 		C6B1475021BE5A9B000472EC /* CPCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCViewController.m; sourceTree = "<group>"; };
 		C6CE764721A56425005C243A /* CPCMobAdSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CPCMobAdSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +169,8 @@
 				C6B1475021BE5A9B000472EC /* CPCViewController.m */,
 				6003F59C195388D20070C39A /* CPCAppDelegate.h */,
 				6003F59D195388D20070C39A /* CPCAppDelegate.m */,
+				C681E46921D36B9F006F6462 /* CustomLayoutViewController.h */,
+				C681E46821D36B9E006F6462 /* CustomLayoutViewController.m */,
 				C64A64C0219320D700E80891 /* libc++.tbd */,
 				C64A65592199AF6D00E80891 /* Main.storyboard */,
 				C64A6276219301C900E80891 /* TableViewController.h */,
@@ -415,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CPCAppDelegate.m in Sources */,
+				C681E46A21D36B9F006F6462 /* CustomLayoutViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				C64A6277219301C900E80891 /* TableViewController.m in Sources */,
 				C6B1475121BE5A9B000472EC /* CPCViewController.m in Sources */,

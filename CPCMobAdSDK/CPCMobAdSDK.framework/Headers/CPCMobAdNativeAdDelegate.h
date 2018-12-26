@@ -50,6 +50,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(void)cpcDidDismissLandingPage:(UIView *)nativeAdView;
 
+// 自定义view 展示上报 ,初始化则认为展示
+- (void)cpcNativeAdShowReport:(BOOL)value;
+
+
 
 @end
 

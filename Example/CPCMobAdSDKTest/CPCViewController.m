@@ -7,10 +7,10 @@
 //
 #import "TableViewController.h"
 #import "CPCViewController.h"
-
 #import <CPCMobAdSDK/CPCCoreServer.h>
-
+#import "CustomLayoutViewController.h"
 @interface CPCViewController ()<CPCADViewDelegate>
+
 
 
 
@@ -39,6 +39,8 @@
 @end
 
 @implementation CPCViewController
+
+
 
 int i = 0;
 - (IBAction)ActionShowADView:(id)sender {
@@ -93,55 +95,46 @@ int i = 0;
     [[CPCCoreServer sharedInstance] cpcGetADModel:config success:^(CPCADViewConfigModel *adViewModel) {
         
         // 有百度打底
-        if (adViewModel.flag == 1) {
+        
+        adViewModel.pushRootVC = self;
+        
+        UIView * adView = [[CPCCoreServer sharedInstance] cpcShowView:adViewModel setDelegate:self];
+        
+        
+        
+        [adView setBackgroundColor:[UIColor grayColor ]];
+        if (adView != nil) {
             
-            //
-            //            UIView * adView = [[CPCCoreServer sharedInstance] cpcShowView:adViewModel setDelegate:self];
-            //
-            //            [self.view addSubview:adView];
+            CGRect fr = adView.frame;
+            fr.origin.y = 100 * i + 64;
             
-        }
-        else // 正常逻辑
-        {
-            adViewModel.pushRootVC = self;
-            
-            UIView * adView = [[CPCCoreServer sharedInstance] cpcShowView:adViewModel setDelegate:self];
-            
-            
-            
-            [adView setBackgroundColor:[UIColor grayColor ]];
-            if (adView != nil) {
-                
-                CGRect fr = adView.frame;
-                fr.origin.y = 100 * i + 64;
-                
-                if (self.changeButton.selected == 1) {
-                    
-                    
-                    adViewModel.width = 300;
-                    
-                    fr.origin.x = 0;
-                    fr.size.width = 300;
-                    [adView setFrame:fr];
-                    [self.view addSubview:adView];
-                    i = i + 1;
-                    [self.adViewArr addObject:adView];
-                }
-                else
-                {
-                    
-                    [adView setFrame:fr];
-                    [self.view addSubview:adView];
-                    NSLog(@"高度:-----------------------%f",adView.frame.size.height);
-                    
-                    i = i + 1;
-                    [self.adViewArr addObject:adView];
-                }
+            if (self.changeButton.selected == 1) {
                 
                 
+                adViewModel.width = 300;
+                
+                fr.origin.x = 0;
+                fr.size.width = 300;
+                [adView setFrame:fr];
+                [self.view addSubview:adView];
+                i = i + 1;
+                [self.adViewArr addObject:adView];
+            }
+            else
+            {
+                
+                [adView setFrame:fr];
+                [self.view addSubview:adView];
+                NSLog(@"高度:-----------------------%f",adView.frame.size.height);
+                
+                i = i + 1;
+                [self.adViewArr addObject:adView];
             }
             
+            
         }
+        
+        
         
         NSLog(@" model 高度:**************************************  == %f",adViewModel.cellHeight);
         
@@ -198,15 +191,18 @@ int i = 0;
 
 - (IBAction)ActionPushTableViewController:(id)sender {
     //    TableViewController * tab = [[TableViewController alloc]init];
-    self.tab.adverts = self.adModelArr;
-    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:self.tab];
-    
-    nav.navigationBar.barTintColor = [UIColor colorWithRed:50/255.0 green:50/255.0 blue:33/255.0 alpha:1];
-    
-    
-    [self presentViewController:nav animated:YES completion:nil];
+    //    self.tab.adverts = self.adModelArr;
+    //    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:self.tab];
+    //
+    //    nav.navigationBar.barTintColor = [UIColor colorWithRed:50/255.0 green:50/255.0 blue:33/255.0 alpha:1];
+    //
+    //
+    //    [self presentViewController:nav animated:YES completion:nil];
     //    [self.navigationController pushViewController:tab animated:YES];
     
+    
+    CustomLayoutViewController * baidu = [[CustomLayoutViewController alloc]init];
+    [self.navigationController pushViewController:baidu animated:YES];
 }
 
 
@@ -241,6 +237,8 @@ int i = 0;
 - (void)jumpAction
 {
     NSLog(@"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
+    
+    
 }
 
 - (void)viewDidLoad {
@@ -338,8 +336,6 @@ int i = 0;
             
             NSLog(@"----------union = %@",adViewModel.clk);
             
-            [[CPCCoreServer sharedInstance] cpcOnClickReport:adViewModel];
-            [[CPCCoreServer sharedInstance] cpcOnShowReport:adViewModel];
             
             
         }
@@ -433,3 +429,4 @@ int i = 0;
 
 
 @end
+

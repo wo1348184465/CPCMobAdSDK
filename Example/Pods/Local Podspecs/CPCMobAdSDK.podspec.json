@@ -1,8 +1,8 @@
 {
   "name": "CPCMobAdSDK",
-  "version": "0.0.4.1",
-  "summary": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏",
-  "description": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏\n删除Masonry,修复Masonry引起的一些问题",
+  "version": "0.0.4.6",
+  "summary": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 ,添加no_baidu字段 ,\n                        可以不走百度打底逻辑 ,可以自定义界面 ,看CustomLayoutViewController \n                        修复界面分离代理问题,以及由计算高度引起的多次展示上报问题\n                        增加自有布局的 展示上报接口",
+  "description": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏\n删除Masonry,修复Masonry引起的一些问题,优化下载类广告需要二次点击返回",
   "homepage": "https://github.com/wo1348184465/CPCMobAdSDK",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wo1348184465/CPCMobAdSDK.git",
-    "tag": "0.0.4.1"
+    "tag": "0.0.4.6"
   },
   "platforms": {
     "ios": "8.0"
