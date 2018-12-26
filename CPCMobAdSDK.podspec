@@ -2,8 +2,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
-  s.version          = '0.0.4.4'
-  s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 ,添加no_baidu字段 ,可以不走百度打底逻辑 ,可以自定义界面 ,看CustomLayoutViewController ,修复界面分离代理问题'
+  s.version          = '0.0.4.5'
+  s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 ,添加no_baidu字段 ,可以不走百度打底逻辑 ,可以自定义界面 ,看CustomLayoutViewController ,修复界面分离代理问题,以及由计算高度引起的多次展示上报问题'
 
 
   s.description      = <<-DESC

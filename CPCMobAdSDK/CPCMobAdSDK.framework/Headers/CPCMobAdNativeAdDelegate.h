@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @param nativeAds 请求成功的BaiduMobAdNativeAdObject
  */
-- (void)cpcNativeAdObjectsSuccessLoad:(CPCMobAdNativeAdObject *)nativeAds;
+- (void)cpcNativeAdObjectsSuccessLoad:(CPCMobAdNativeAdObject *)nativeAds native:(CPCMobAdNative *)native;
 
 
 
