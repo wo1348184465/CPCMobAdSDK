@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/CPCCoreServer.h</key>
 		<data>
-		JjrPz5sbIruD07OZ5hFAx+9HAx0=
+		+bH+ZuGDxyWU1gp3d9UITX68dMU=
 		</data>
 		<key>Headers/CPCLaunchADViewDelegate.h</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Headers/CPCMobAdNativeAdDelegate.h</key>
 		<data>
-		SpMtbuN1qzfiVLgyq2K34w7N/30=
+		dexqzgpYp6I6AfYJaeKI9x0pW/g=
 		</data>
 		<key>Headers/CPCMobAdNativeAdObject.h</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dScdR2jncr9QDYjzPmulCwVivRs=
+		bfebVHuJKFNZe705Nb2JWXAQDyw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -88,11 +88,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JjrPz5sbIruD07OZ5hFAx+9HAx0=
+			+bH+ZuGDxyWU1gp3d9UITX68dMU=
 			</data>
 			<key>hash2</key>
 			<data>
-			8md8G0HNiiTgMfI4zQ4z10Y7nS70XytUivbeKkZdzE8=
+			bSFvwZBeCxR+QNzvWNUnGBV/fqvUA70dJSwQ9w6V5bs=
 			</data>
 		</dict>
 		<key>Headers/CPCLaunchADViewDelegate.h</key>
@@ -132,11 +132,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SpMtbuN1qzfiVLgyq2K34w7N/30=
+			dexqzgpYp6I6AfYJaeKI9x0pW/g=
 			</data>
 			<key>hash2</key>
 			<data>
-			SHiiWuulx7Ag7B0fL8z4T+uDU69BjT1MZ0shjWnsqvo=
+			0EF1E4lku1qWtZrfppYNZVkZQuN+pnZaPVZfSt0ABbU=
 			</data>
 		</dict>
 		<key>Headers/CPCMobAdNativeAdObject.h</key>

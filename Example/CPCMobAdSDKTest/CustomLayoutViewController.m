@@ -11,7 +11,6 @@
 #import <CPCMobAdSDK/CPCMobAdNativeAdView.h>
 #import <CPCMobAdSDK/CPCMobAdNative.h>
 #import <CPCMobAdSDK/CPCMobAdNativeAdObject.h>
-
 #import "UIImageView+AFNetworking.h"
 @interface CustomLayoutViewController ()<CPCMobAdNativeAdDelegate>
 
@@ -30,15 +29,15 @@
     
     [CPCMobAdNativeAdView cpcDealTapGesture:YES];
     
- 
     
     
-
-        self.nativeAd = [[CPCMobAdNative alloc]init];
-        
-        self.nativeAd.delegate = self;
-        
-        [self.nativeAd cpcRequestNativeAds];
+    
+    
+    self.nativeAd = [[CPCMobAdNative alloc]init];
+    
+    self.nativeAd.delegate = self;
+    
+    [self.nativeAd cpcRequestNativeAds];
     
     
     
@@ -53,7 +52,7 @@
     
     
     
-
+    
     
 }
 
@@ -73,7 +72,7 @@ int j = 0;
 }
 - (void)cpcNativeAdObjectsSuccessLoad:(CPCMobAdNativeAdObject *)nativeAds native:(CPCMobAdNative *)native;
 {
-
+    
     
     self.objc = nativeAds;
     NSLog(@"type ================== %d",nativeAds.ad_type);
@@ -83,10 +82,10 @@ int j = 0;
     }
     
     
-    CPCMobAdNativeAdView * view = [[CPCMobAdNativeAdView alloc] initWithFrame:CGRectMake(0, 100 + j * 250, self.view.frame.size.width, 200) Object:nativeAds native:native];
+    CPCMobAdNativeAdView * view = [[CPCMobAdNativeAdView alloc] initWithFrame:CGRectMake(0, 100 + j * 200, self.view.frame.size.width, 200) Object:nativeAds native:native];
     
-//    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapGesture:)];
-//    [view addGestureRecognizer:tapGesture];
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapGesture:)];
+    [view addGestureRecognizer:tapGesture];
     
     UIImageView * imageView = [[UIImageView alloc] initWithFrame:CGRectMake(10, 10, self.view.frame.size.width/3, 100)];
     
@@ -99,14 +98,14 @@ int j = 0;
     UILabel * titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(imageView.frame.origin.x + imageView.frame.size.width + 10, 10, self.view.frame.size.width - (imageView.frame.origin.x + imageView.frame.size.width + 10), 30)];
     titleLabel.text = nativeAds.adct_title;
     [view addSubview:titleLabel];
-
+    
     [view setBackgroundColor:[UIColor grayColor]];
     
     [self.view addSubview:view];
     
     j = j + 1;
     
-  
+    
     
 }
 
@@ -121,7 +120,7 @@ int j = 0;
         [object handleClick:view native: self.nativeAd];
         
     } else {
-//        [object handleClick:view];
+        //        [object handleClick:view];
     }
 }
 
@@ -138,7 +137,10 @@ int j = 0;
 {
     
 }
-
+- (void)cpcNativeAdShowReport:(BOOL)value
+{
+    
+}
 
 /**
  *  广告点击
@@ -162,13 +164,13 @@ int j = 0;
 - (void)viewWillAppear:(BOOL)animated
 {
     [self.navigationController setNavigationBarHidden:NO animated:YES];
-
+    
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [self.navigationController setNavigationBarHidden:YES animated:YES];
-
+    
 }
 
 @end
