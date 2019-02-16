@@ -16,7 +16,7 @@
 
 
 
-#define CPCMOBADSDK_VERSION @"0.1.0.0"
+#define CPCMOBADSDK_VERSION @"0.1.0.3" // 互动, sketch
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -61,6 +61,25 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /************************************************************ 新版开发 ************************************/
+
+
+
+// 互动广告
+
+
+
+
+
+/**
+ 调用H5界面
+
+ @param url 地址
+ @param infoDic 参数字典 例子:    [dic setObject:@"12345" forKey:@"getMemberid"];
+ @param value 返回之后是否隐藏nav
+ @return 返回h5 视图控制器 ,用push形式加载
+ */
+- (UIViewController *)loadH5FromeUrl:(NSString*)url andDic:(NSDictionary *)infoDic backHiddenNav:(BOOL)value;
+
 
 
 

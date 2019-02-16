@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/CPCCoreServer.h</key>
 		<data>
-		NE0lJAqn7b78iAxDoyKLRllvuCw=
+		iDvf5qWg468Uh10BzVqJ/E/Xh4w=
 		</data>
 		<key>Headers/CPCLaunchADViewDelegate.h</key>
 		<data>
@@ -47,6 +47,10 @@
 		<key>Info.plist</key>
 		<data>
 		bfebVHuJKFNZe705Nb2JWXAQDyw=
+		</data>
+		<key>easyjs-inject.js</key>
+		<data>
+		FR245mMeH2MZkC+JU0E9QzSXBi8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -88,11 +92,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NE0lJAqn7b78iAxDoyKLRllvuCw=
+			iDvf5qWg468Uh10BzVqJ/E/Xh4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			PqzdLXAzkdJkNaPz/jsYHx4d08GWXFPVuDcDajFebu4=
+			rPVnRp7SOWf1/0pRb6+4V/PVSelu6zr6C01Akq3CDXs=
 			</data>
 		</dict>
 		<key>Headers/CPCLaunchADViewDelegate.h</key>
@@ -159,6 +163,17 @@
 			<key>hash2</key>
 			<data>
 			F78r0KEGJcA/xWilhjc5OWFXEafJ+0MJOYwC1rGE/vQ=
+			</data>
+		</dict>
+		<key>easyjs-inject.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FR245mMeH2MZkC+JU0E9QzSXBi8=
+			</data>
+			<key>hash2</key>
+			<data>
+			NEDnMCx1gjMr8INv6cbiS16Oej47cMG9Pd1m6UJ9dlQ=
 			</data>
 		</dict>
 	</dict>
