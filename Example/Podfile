@@ -1,15 +1,28 @@
-use_frameworks!
-workspace 'CPCMobAdSDKTest.xcworkspace'
-xcodeproj 'CPCMobAdSDKTest.xcodeproj'
+#use_frameworks!
+#workspace 'CPCMobAdSDKTest.xcworkspace'
+#xcodeproj 'CPCMobAdSDKTest.xcodeproj'
+#
+#
+##target 'CPCMobAdSDKTest_Example' do
+#  pod 'CPCMobAdSDK', :path => '../'
+#
+# target 'CPCMobAdSDKTest_Example' do
+#     pod 'CPCH5SDK', :path => '../CPCH5SDK'
+#
+#  target 'CPCMobAdSDKTest_Tests' do
+#    inherit! :search_paths
+#
+#
+#  end
+#end
 
 
 target 'CPCMobAdSDKTest_Example' do
-  pod 'CPCMobAdSDK', :path => '../'
- 
+#    pod 'CPCMobAdSDK/CPCH5SDK', :path => '../'
+     pod 'CPCMobAdSDK/CPCMobAdSDKA', :path => '../'
+#     pod 'CPCMobAdSDK', :path => '../'
 
-  target 'CPCMobAdSDKTest_Tests' do
-    inherit! :search_paths
 
-    
-  end
 end
+
+

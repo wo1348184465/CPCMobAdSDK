@@ -1,7 +1,7 @@
 {
   "name": "CPCMobAdSDK",
-  "version": "0.0.4.7",
-  "summary": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 ,添加no_baidu字段 ,\n                        可以不走百度打底逻辑,看demo ,可以自定义界面 ,看CustomLayoutViewController \n                        修复界面分离代理问题,以及由计算高度引起的多次展示上报问题\n                        增加自定义布局的 展示回调,点击回调, 关闭回调接口 \n                        增加版本号对比,在CPCCoreServer.h中",
+  "version": "0.2.0.0",
+  "summary": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 ,添加no_baidu字段 ,增加jason转View ,增加jsonView版本号对比",
   "description": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏\n删除Masonry,修复Masonry引起的一些问题,优化下载类广告需要二次点击返回",
   "homepage": "https://github.com/wo1348184465/CPCMobAdSDK",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wo1348184465/CPCMobAdSDK.git",
-    "tag": "0.0.4.7"
+    "tag": "0.2.0.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,31 +23,44 @@
       "CPCMobAdSDK/Source/*.{png}"
     ]
   },
-  "frameworks": [
-    "UIKit",
-    "MessageUI",
-    "WebKit",
-    "CoreMedia",
-    "Foundation",
-    "CoreMedia",
-    "CoreMotion",
-    "SystemConfiguration",
-    "CoreLocation",
-    "CoreTelephony",
-    "adSupport",
-    "AVFoundation"
-  ],
-  "libraries": "c++",
-  "dependencies": {
-    "AFNetworking": [
-      "3.1.0"
-    ],
-    "WebViewJavascriptBridge": [
-      "6.0.3"
-    ],
-    "CPCBaiduMobAdSDK": [
-      "0.0.1"
-    ]
-  },
-  "vendored_frameworks": "CPCMobAdSDK/*.{framework}"
+  "subspecs": [
+    {
+      "name": "CPCMobAdSDKA",
+      "vendored_frameworks": "CPCMobAdSDK/CPCMobAdSDKA/*.{framework}",
+      "dependencies": {
+        "AFNetworking": [
+          "3.1.0"
+        ],
+        "WebViewJavascriptBridge": [
+          "6.0.3"
+        ],
+        "CPCBaiduMobAdSDK": [
+          "0.0.1"
+        ]
+      },
+      "frameworks": [
+        "UIKit",
+        "MessageUI",
+        "WebKit",
+        "CoreMedia",
+        "Foundation",
+        "CoreMedia",
+        "CoreMotion",
+        "SystemConfiguration",
+        "CoreLocation",
+        "CoreTelephony",
+        "adSupport",
+        "AVFoundation"
+      ],
+      "libraries": "c++"
+    },
+    {
+      "name": "CPCH5SDK",
+      "vendored_frameworks": "CPCMobAdSDK/CPCH5SDK/*.{framework}",
+      "frameworks": [
+        "UIKit",
+        "Foundation"
+      ]
+    }
+  ]
 }

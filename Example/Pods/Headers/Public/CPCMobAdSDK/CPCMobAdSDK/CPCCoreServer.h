@@ -1,0 +1,1 @@
+../../../../../../CPCMobAdSDK/CPCMobAdSDKA/CPCMobAdSDK.framework/Headers/CPCCoreServer.h

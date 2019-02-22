@@ -7,15 +7,15 @@
 //
 
 #import "CPCAppDelegate.h"
-#import <CPCMobAdSDK/CPCCoreServer.h>
+//#import <CPCMobAdSDK/CPCCoreServer.h>
 @implementation CPCAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
     
-    [[CPCCoreServer sharedInstance] initWithCPCKey:@"no_baidu"];
-    
+//    [[CPCCoreServer sharedInstance] initWithCPCKey:@"no_baidu"];
+//
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     UIStoryboard * storyBoard = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
     self.window.rootViewController = [storyBoard instantiateViewControllerWithIdentifier:@"CPCViewController"];

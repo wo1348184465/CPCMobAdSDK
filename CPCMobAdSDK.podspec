@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
-  s.version          = '0.1.0.3'
+  s.version          = '0.2.0.0'
   s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 ,添加no_baidu字段 ,增加jason转View ,增加jsonView版本号对比'
 
 
@@ -27,20 +27,52 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
       #'CPCSource' => ['CPCMobAdSDKTest/Source/*.{png}']
 
   }
+
+
+
+
+
   # s.frameworks = 'UIKit','Foundation'
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit','Foundation'
+  # s.frameworks = 'UIKit','Foundation'
+  # #s.subspec 'BauduMobAdSDK' do |ss|
+  # s.frameworks = 'UIKit','MessageUI','WebKit','CoreMedia' ,'Foundation','CoreMedia','CoreMotion','SystemConfiguration','CoreLocation','CoreTelephony','adSupport','AVFoundation'
+  #     #end
+  # s.libraries = 'c++'
+
+  # s.dependency 'AFNetworking', '3.1.0'
+  # s.dependency 'WebViewJavascriptBridge', '6.0.3'
+  # s.dependency 'CPCBaiduMobAdSDK' ,'0.0.1'
+
+
+
+  s.subspec 'CPCMobAdSDKA' do |ss|
+  ss.vendored_frameworks = 'CPCMobAdSDK/CPCMobAdSDKA/*.{framework}' 
+  ss.dependency 'AFNetworking', '3.1.0'
+     ss.dependency 'WebViewJavascriptBridge', '6.0.3'
+      ss.dependency 'CPCBaiduMobAdSDK' ,'0.0.1'
+      ss.dependency 'CPCH5SDK'
+ 
+    # ss.frameworks = 'UIKit','Foundation'
   #s.subspec 'BauduMobAdSDK' do |ss|
-  s.frameworks = 'UIKit','MessageUI','WebKit','CoreMedia' ,'Foundation','CoreMedia','CoreMotion','SystemConfiguration','CoreLocation','CoreTelephony','adSupport','AVFoundation'
+    ss.frameworks = 'UIKit','MessageUI','WebKit','CoreMedia' ,'Foundation','CoreMedia','CoreMotion','SystemConfiguration','CoreLocation','CoreTelephony','adSupport','AVFoundation'
       #end
-  s.libraries = 'c++'
+   ss.libraries = 'c++'
+     
+    end
 
-  s.dependency 'AFNetworking', '3.1.0'
-  s.dependency 'WebViewJavascriptBridge', '6.0.3'
-  s.dependency 'CPCBaiduMobAdSDK' ,'0.0.1'
+    
 
+    s.subspec 'CPCH5SDK' do |ss|
+      ss.vendored_frameworks = 'CPCMobAdSDK/CPCH5SDK/*.{framework}' 
+          ss.frameworks = 'UIKit','Foundation'
 
-  s.vendored_frameworks = 'CPCMobAdSDK/*.{framework}' 
+    #   ss.resource_bundles = {
+    #   'CPCH5SDK' => ['CPCMobSDKProject/Classes/SubModule/CPCH5SDK/Source/*.{png}']
+    #   #'CPCSource' => ['CPCMobAdSDKTest/Source/*.{png}']
+
+    # }
+    end
 
 end
 

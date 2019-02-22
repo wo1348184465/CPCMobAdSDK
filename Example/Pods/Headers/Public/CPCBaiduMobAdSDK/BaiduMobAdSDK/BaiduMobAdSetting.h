@@ -1,0 +1,1 @@
+../../../../CPCBaiduMobAdSDK/CPCBaiduMobAdSDK/BaiduMobAdSDK.framework/Headers/BaiduMobAdSetting.h
