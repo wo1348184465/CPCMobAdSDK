@@ -20,6 +20,10 @@
 		<data>
 		J508TRby0ODoyI4rt9oDzMfZNcA=
 		</data>
+		<key>Headers/CPCH5WebView.h</key>
+		<data>
+		nBBdPeBRb445vuf4ABBpToiSa8o=
+		</data>
 		<key>Headers/CPCLaunchADViewDelegate.h</key>
 		<data>
 		vb7OQVNiZHbgnbMVDHguwAurXtk=
@@ -93,6 +97,17 @@
 			<key>hash2</key>
 			<data>
 			88/LqWrQYu+aCqJvTLj3Stlm3oRrNW2h+soyXRZJYGc=
+			</data>
+		</dict>
+		<key>Headers/CPCH5WebView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nBBdPeBRb445vuf4ABBpToiSa8o=
+			</data>
+			<key>hash2</key>
+			<data>
+			oC1/xHP/cZ2XNH/RLbsyJGIlfJyT1YR07Z90yN8VILU=
 			</data>
 		</dict>
 		<key>Headers/CPCLaunchADViewDelegate.h</key>

@@ -21,7 +21,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		94D97DD0F6DA7B054ABCDD06 /* Pods_CPCMobAdSDKTest_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54E3DC33EB82486A30354CF7 /* Pods_CPCMobAdSDKTest_Tests.framework */; };
-		C6197D70223A573100ED897E /* CPCH5SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6197D6F223A573100ED897E /* CPCH5SDK.framework */; };
 		C64A3EDC21A2B3A7004ED18D /* Pods_CPCMobAdSDKTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64A3EDB21A2B3A7004ED18D /* Pods_CPCMobAdSDKTest_Example.framework */; };
 		C64A62742193015100E80891 /* CPCMobAdSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C64A62732193015100E80891 /* CPCMobAdSDK.podspec */; };
 		C64A6277219301C900E80891 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A6275219301C900E80891 /* TableViewController.m */; };
@@ -79,7 +78,6 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DA66042D7B74AADF4A505D7 /* Pods_CPCMobAdSDKTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CPCMobAdSDKTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62B839FA6F09859548D598A /* Pods-CPCMobAdSDKTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCMobAdSDKTest_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CPCMobAdSDKTest_Tests/Pods-CPCMobAdSDKTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C6197D6F223A573100ED897E /* CPCH5SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CPCH5SDK.framework; sourceTree = "<group>"; };
 		C64A3EDB21A2B3A7004ED18D /* Pods_CPCMobAdSDKTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_CPCMobAdSDKTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C64A62732193015100E80891 /* CPCMobAdSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CPCMobAdSDK.podspec; path = ../CPCMobAdSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C64A6275219301C900E80891 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C64A3EDC21A2B3A7004ED18D /* Pods_CPCMobAdSDKTest_Example.framework in Frameworks */,
-				C6197D70223A573100ED897E /* CPCH5SDK.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				C64A64C2219320D700E80891 /* libc++.tbd in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
@@ -170,7 +167,6 @@
 			children = (
 				C6B1474F21BE5A9B000472EC /* CPCViewController.h */,
 				C6B1475021BE5A9B000472EC /* CPCViewController.m */,
-				C6197D6F223A573100ED897E /* CPCH5SDK.framework */,
 				6003F59C195388D20070C39A /* CPCAppDelegate.h */,
 				6003F59D195388D20070C39A /* CPCAppDelegate.m */,
 				C681E46921D36B9F006F6462 /* CustomLayoutViewController.h */,

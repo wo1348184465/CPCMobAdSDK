@@ -1,7 +1,7 @@
 {
   "name": "CPCMobAdSDK",
-  "version": "0.1.0.41",
-  "summary": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 ,添加no_baidu字段 ,增加jason转View ,增加jsonView版本号对比,去键盘",
+  "version": "0.1.0.42",
+  "summary": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 ,添加no_baidu字段 ,增加jason转View ,增加jsonView版本号对比,去键盘,修复重复类问题",
   "description": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏\n删除Masonry,修复Masonry引起的一些问题,优化下载类广告需要二次点击返回",
   "homepage": "https://github.com/wo1348184465/CPCMobAdSDK",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wo1348184465/CPCMobAdSDK.git",
-    "tag": "0.1.0.41"
+    "tag": "0.1.0.42"
   },
   "platforms": {
     "ios": "8.0"
