@@ -61,7 +61,7 @@
 
 -(NSString*)adId
 {
-    return @"7479036";
+    return @"7112926";
 }
 
 
