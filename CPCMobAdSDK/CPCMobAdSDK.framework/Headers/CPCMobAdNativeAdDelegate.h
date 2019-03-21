@@ -12,9 +12,6 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol CPCMobAdNativeAdDelegate <NSObject>
-
-
-
 /**
  * 广告位id
  */

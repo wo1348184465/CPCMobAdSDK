@@ -18,11 +18,7 @@
 		</data>
 		<key>Headers/CPCCoreServer.h</key>
 		<data>
-		CsmpMUvHLy7ZTRCEY54P/DrH2Fw=
-		</data>
-		<key>Headers/CPCH5WebView.h</key>
-		<data>
-		nBBdPeBRb445vuf4ABBpToiSa8o=
+		Oa0g6+tJck8W0BM3BMJ/FXy4Re4=
 		</data>
 		<key>Headers/CPCLaunchADViewDelegate.h</key>
 		<data>
@@ -38,7 +34,7 @@
 		</data>
 		<key>Headers/CPCMobAdNativeAdDelegate.h</key>
 		<data>
-		aakOOA4DhU3iF7xUCRgnh3yA4UE=
+		dexqzgpYp6I6AfYJaeKI9x0pW/g=
 		</data>
 		<key>Headers/CPCMobAdNativeAdObject.h</key>
 		<data>
@@ -46,7 +42,7 @@
 		</data>
 		<key>Headers/CPCMobAdNativeAdView.h</key>
 		<data>
-		oX4i1wUMyUf/RqqOoj94DGg/rfo=
+		CvKhk6oNhyVcMMnqHfTHwk/GI+k=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -92,22 +88,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CsmpMUvHLy7ZTRCEY54P/DrH2Fw=
+			Oa0g6+tJck8W0BM3BMJ/FXy4Re4=
 			</data>
 			<key>hash2</key>
 			<data>
-			MJB6vGLGo1aUB8g1dx4Ol94hiAMEo0+7UTbnMcaUeC4=
-			</data>
-		</dict>
-		<key>Headers/CPCH5WebView.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nBBdPeBRb445vuf4ABBpToiSa8o=
-			</data>
-			<key>hash2</key>
-			<data>
-			oC1/xHP/cZ2XNH/RLbsyJGIlfJyT1YR07Z90yN8VILU=
+			g9ajXl6KEYgQYKKaL/jph5y5sHN5YOdflA6N69b2rpQ=
 			</data>
 		</dict>
 		<key>Headers/CPCLaunchADViewDelegate.h</key>
@@ -147,11 +132,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aakOOA4DhU3iF7xUCRgnh3yA4UE=
+			dexqzgpYp6I6AfYJaeKI9x0pW/g=
 			</data>
 			<key>hash2</key>
 			<data>
-			bHsNY1/umPcEZcIL46qEJ7OO0yGdzbWcA6hrjFDpZkY=
+			0EF1E4lku1qWtZrfppYNZVkZQuN+pnZaPVZfSt0ABbU=
 			</data>
 		</dict>
 		<key>Headers/CPCMobAdNativeAdObject.h</key>
@@ -169,11 +154,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oX4i1wUMyUf/RqqOoj94DGg/rfo=
+			CvKhk6oNhyVcMMnqHfTHwk/GI+k=
 			</data>
 			<key>hash2</key>
 			<data>
-			ITxTr+WXVZHiHsUTkOEOXlQj9CWnZ/rh25odpIL4v6c=
+			F78r0KEGJcA/xWilhjc5OWFXEafJ+0MJOYwC1rGE/vQ=
 			</data>
 		</dict>
 	</dict>

@@ -25,8 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 -(id)initWithFrame:(CGRect)frame
             Object:(CPCMobAdNativeAdObject *)obj
-            native:(CPCMobAdNative * )native
-            rootVC:(UIViewController *)rootViewController;
+            native:(CPCMobAdNative * )native;
 
 
 
