@@ -16,7 +16,7 @@
 
 
 
-#define CPCMOBADSDK_VERSION @"0.1.0.54" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.0.56" // 互动, sketch
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -29,7 +29,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic , weak) id<CPCLaunchADViewDelegate> launchDelegate;
 
-- (void)baidutest;
 
 /**
  单例初始化
@@ -187,9 +186,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)cpcDeleteVideoCache;
 
 
-
-//预留的接口, 暂时没用
-- (BOOL)cpcCheckExpired:(NSObject *)adviewModel;
 
 
 @end

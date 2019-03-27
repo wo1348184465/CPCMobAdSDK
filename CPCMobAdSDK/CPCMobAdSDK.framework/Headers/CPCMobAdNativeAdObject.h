@@ -72,7 +72,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 // 点击事件上报
-- (void)reportClick:(NSArray *)clkArr;
+//- (void)reportClick:(NSArray *)clkArr;
 
 // 展示上报
 - (void)reportShow:(NSArray *)impArr;
