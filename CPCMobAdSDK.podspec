@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
-  s.version          = '0.1.0.6'
+  s.version          = '0.1.0.61'
   s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 ,添加no_baidu字段 ,增加jason转View,趣头条版本,优化webview crash问题,添加对appstore跳转的上报,增加主feed, 大图和视频样式支持'
 
 
@@ -14,7 +14,7 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '丁昊' => 'dinghao@qutoutiao.net' }
-  s.source           = { :git => 'https://github.com/wo1348184465/CPCMobAdSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:wo1348184465/CPCMobAdSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   # s.ios.deployment_target = '8.0'
