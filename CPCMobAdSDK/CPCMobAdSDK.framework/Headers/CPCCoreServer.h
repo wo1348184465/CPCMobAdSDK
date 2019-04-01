@@ -16,7 +16,7 @@
 
 
 
-#define CPCMOBADSDK_VERSION @"0.1.0.62" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.0.63" // 互动, sketch
 
 
 NS_ASSUME_NONNULL_BEGIN
