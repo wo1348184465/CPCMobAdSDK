@@ -26,6 +26,8 @@
 
 @property (nonatomic, strong) NSObject * baiduAdObject;
 
+
+
 //------------------------------百度 打底------------------------------//
 
 
@@ -35,7 +37,7 @@
 //------------------------------广告基础属性------------------------------//
 
 @property (nonatomic , strong) NSObject * adViewModel; //物料信息, 不对外展示
-@property (nonatomic , strong) UIViewController * pushRootVC; //用于跳转跟视图
+@property (nonatomic , weak) UIViewController * pushRootVC; //用于跳转跟视图
 
 
 
