@@ -2,8 +2,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
-  s.version          = '0.1.0.63'
-  s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 ,添加no_baidu字段 ,增加jason转View,趣头条版本,优化webview crash问题,添加对appstore跳转的上报,增加主feed, 大图和视频样式支持'
+  s.version          = '0.1.0.7'
+  s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测'
 
 
   s.description      = <<-DESC

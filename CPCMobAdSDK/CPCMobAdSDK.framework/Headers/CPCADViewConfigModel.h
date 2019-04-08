@@ -41,12 +41,16 @@
 
 
 
-@property (nonatomic , assign) CGFloat cellHeight;
+@property (nonatomic , assign) CGFloat cellHeight; //广告高度
+
 @property (nonatomic , assign) CGFloat heightForWith;
 
 @property (nonatomic , assign) CGFloat width;
 
 
+@property (nonatomic , assign) long long requestTime; //请求时间
+
+@property (nonatomic , assign) int functionId; // 功能号
 //------------------------------广告基础属性------------------------------//
 
 

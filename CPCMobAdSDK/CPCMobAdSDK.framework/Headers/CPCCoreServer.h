@@ -16,7 +16,7 @@
 
 
 
-#define CPCMOBADSDK_VERSION @"0.1.0.63" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.0.7" // 互动, sketch
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -131,7 +131,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
+/**
+ 传入物料, 判断是否过期
 
+ @param adViewModel 请求到的广告物料
+ @return YES:过期   NO:没过期
+ */
+-(BOOL)cpcIsExpired:(CPCADViewConfigModel *)adViewModel;
 
 
 
