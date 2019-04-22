@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
-  s.version          = '0.1.0.74'
+  s.version          = '0.1.0.75.0422'
   s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测'
 
 
@@ -32,7 +32,7 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit','Foundation'
   #s.subspec 'BauduMobAdSDK' do |ss|
-  s.frameworks = 'UIKit','MessageUI','WebKit','CoreMedia' ,'Foundation','CoreMedia','CoreMotion','SystemConfiguration','CoreLocation','CoreTelephony','adSupport','AVFoundation'
+  s.frameworks = 'UIKit','MessageUI','CoreLocation','WebKit','CoreMedia' ,'Foundation','CoreMedia','CoreMotion','SystemConfiguration','CoreLocation','CoreTelephony','adSupport','AVFoundation'
       #end
   s.libraries = 'c++'
 
