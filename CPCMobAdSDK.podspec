@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
-  s.version          = '0.1.0.75.0422'
+  s.version          = '0.1.0.8.0425'
   s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测'
 
 
@@ -24,8 +24,9 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
 
 
   s.resource_bundles = {
-      'CPCMobAdSDK' => ['CPCMobAdSDK/Source/*.{png}']
-      #'CPCSource' => ['CPCMobAdSDKTest/Source/*.{png}']
+      # 'CPCMobAdSDK' => ['CPCMobAdSDK/Source/*.{png}']
+       'CPCMobAdSDK' => ['CPCMobAdSDK/Assets/*.{xcassets}']
+
 
   }
   # s.frameworks = 'UIKit','Foundation'

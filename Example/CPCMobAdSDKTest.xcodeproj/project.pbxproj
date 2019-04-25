@@ -362,18 +362,24 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CPCMobAdSDKTest_Example/Pods-CPCMobAdSDKTest_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CPCMobAdSDKTest_Example/Pods-CPCMobAdSDKTest_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/WebViewJavascriptBridge/WebViewJavascriptBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WebViewJavascriptBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPCMobAdSDKTest_Example/Pods-CPCMobAdSDKTest_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPCMobAdSDKTest_Example/Pods-CPCMobAdSDKTest_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		56A59617C709D1E91E9531FB /* [CP] Check Pods Manifest.lock */ = {
@@ -400,7 +406,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-CPCMobAdSDKTest_Example/Pods-CPCMobAdSDKTest_Example-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-CPCMobAdSDKTest_Example/Pods-CPCMobAdSDKTest_Example-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/CPCMobAdSDK/CPCMobAdSDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -409,7 +415,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CPCMobAdSDKTest_Example/Pods-CPCMobAdSDKTest_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CPCMobAdSDKTest_Example/Pods-CPCMobAdSDKTest_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

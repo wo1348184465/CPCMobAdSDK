@@ -1,0 +1,10 @@
+CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/CPCBaiduMobAdSDK
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/CPCBaiduMobAdSDK/CPCBaiduMobAdSDK"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+OTHER_LDFLAGS = $(inherited) -l"c++" -framework "AVFoundation" -framework "AdSupport" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreTelephony" -framework "MessageUI" -framework "SafariServices" -framework "SystemConfiguration" -framework "WebKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}
+PODS_TARGET_SRCROOT = ${PODS_ROOT}/CPCBaiduMobAdSDK
+PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.${PRODUCT_NAME:rfc1034identifier}
+SKIP_INSTALL = YES
