@@ -1,6 +1,6 @@
 {
   "name": "CPCMobAdSDK",
-  "version": "0.1.0.75.0422",
+  "version": "0.1.0.82.0425",
   "summary": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测",
   "description": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测",
   "homepage": "https://github.com/wo1348184465/CPCMobAdSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wo1348184465/CPCMobAdSDK.git",
-    "tag": "0.1.0.75.0422"
+    "tag": "0.1.0.82.0425"
   },
   "platforms": {
     "ios": "8.0"
@@ -30,7 +30,6 @@
     "WebKit",
     "CoreMedia",
     "Foundation",
-    "CoreMedia",
     "CoreMotion",
     "SystemConfiguration",
     "CoreLocation",

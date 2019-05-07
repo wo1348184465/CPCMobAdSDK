@@ -13,10 +13,10 @@
 #import "CPCAdViewConfig.h"
 #import "CPCADViewDelegate.h"
 #import "CPCADViewConfigModel.h"
+#import "CPCInitConfig.h"
 
 
-
-#define CPCMOBADSDK_VERSION @"0.1.0.75" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.0.8.0507" // 互动, sketch
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -57,6 +57,16 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)initWithCPCKey:(NSString *)patchKey;
 
 
+
+/**
+ 初始化SDK以及一些配置
+
+ @param config 初始化配置
+ @return 是否成功初始化
+ */
+- (BOOL)initWithCPCConfig:(CPCInitConfig *)config;
+
+- (void)test;
 
 
 /************************************************************ 新版开发 ************************************/

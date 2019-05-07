@@ -20,25 +20,37 @@ typedef NS_ENUM(NSInteger , CPCVideoADViewType)
 @interface CPCAdViewConfig : NSObject
 
 
-@property (nonatomic , strong) NSString * adid;
+@property (nonatomic , strong) NSString * adid; // 广告位
 
 @property (nonatomic , strong) UIViewController * push;
 
-@property(nonatomic, assign) float titleImageOffset;
+@property(nonatomic, assign) float titleImageOffset; // 标题与图片的距离
 
-@property(nonatomic, assign) float imageOffset;
+@property(nonatomic, assign) float imageOffset; //图片和图片之间的距离
 
-@property(nonatomic, assign) BOOL isRight;
+@property(nonatomic, assign) BOOL isRight; // 图文广告是否是右图广告
 
-@property(nonatomic, strong) UIFont * titleFont;
+@property(nonatomic, strong) UIFont * titleFont; //标题文字大小
 
-@property(nonatomic, assign) CGSize clickSize;
+@property(nonatomic, assign) CGSize clickSize; // 点击区域, 不需要修改不用管
 
-@property(nonatomic, assign) UIEdgeInsets edgeInset;
+@property(nonatomic, assign) UIEdgeInsets edgeInset;// 文字, 图片, 距离边框的距离
 
-@property (nonatomic, assign) NSString * time;
 
-@property(nonatomic, assign) CPCVideoADViewType videoType;
+@property (nonatomic , strong) NSString * channel; //频道id
+
+@property (nonatomic , strong) NSString * memberid; //用户id
+
+
+@property (nonatomic , assign) CGFloat aspectRatio; // 高宽比
+
+@property (nonatomic, assign) NSString * time;// 
+
+
+
+@property(nonatomic, assign) CPCVideoADViewType videoType; 
+
+
 
 
 @property (nonatomic , assign) int style;// 样式号, 用于试验看样式, 正式请求请不要用

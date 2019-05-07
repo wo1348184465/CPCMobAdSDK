@@ -24,7 +24,6 @@
 		C64A3EDC21A2B3A7004ED18D /* Pods_CPCMobAdSDKTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64A3EDB21A2B3A7004ED18D /* Pods_CPCMobAdSDKTest_Example.framework */; };
 		C64A62742193015100E80891 /* CPCMobAdSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C64A62732193015100E80891 /* CPCMobAdSDK.podspec */; };
 		C64A6277219301C900E80891 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A6275219301C900E80891 /* TableViewController.m */; };
-		C64A64C2219320D700E80891 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C64A64C0219320D700E80891 /* libc++.tbd */; };
 		C64A655A2199AF6D00E80891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64A65592199AF6D00E80891 /* Main.storyboard */; };
 		C681E46A21D36B9F006F6462 /* CustomLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C681E46821D36B9E006F6462 /* CustomLayoutViewController.m */; };
 		C6B1475121BE5A9B000472EC /* CPCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B1475021BE5A9B000472EC /* CPCViewController.m */; };
@@ -82,7 +81,6 @@
 		C64A62732193015100E80891 /* CPCMobAdSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CPCMobAdSDK.podspec; path = ../CPCMobAdSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C64A6275219301C900E80891 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		C64A6276219301C900E80891 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		C64A64C0219320D700E80891 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		C64A65592199AF6D00E80891 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C681E46821D36B9E006F6462 /* CustomLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayoutViewController.m; sourceTree = "<group>"; };
 		C681E46921D36B9F006F6462 /* CustomLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayoutViewController.h; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 			files = (
 				C64A3EDC21A2B3A7004ED18D /* Pods_CPCMobAdSDKTest_Example.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
-				C64A64C2219320D700E80891 /* libc++.tbd in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 			);
@@ -171,7 +168,6 @@
 				6003F59D195388D20070C39A /* CPCAppDelegate.m */,
 				C681E46921D36B9F006F6462 /* CustomLayoutViewController.h */,
 				C681E46821D36B9E006F6462 /* CustomLayoutViewController.m */,
-				C64A64C0219320D700E80891 /* libc++.tbd */,
 				C64A65592199AF6D00E80891 /* Main.storyboard */,
 				C64A6276219301C900E80891 /* TableViewController.h */,
 				C64A6275219301C900E80891 /* TableViewController.m */,
@@ -300,6 +296,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -599,6 +596,7 @@
 				INFOPLIST_FILE = "CPCMobAdSDKTest/CPCMobAdSDKTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
@@ -623,6 +621,7 @@
 				INFOPLIST_FILE = "CPCMobAdSDKTest/CPCMobAdSDKTest-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
