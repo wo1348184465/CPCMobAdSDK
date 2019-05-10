@@ -14,11 +14,11 @@
 		</data>
 		<key>Headers/CPCAdViewConfig.h</key>
 		<data>
-		6p3qx+1behPFbckI1mkKoc5lFVM=
+		2RCbglvdUGbUWLq1a+4thGAZEUw=
 		</data>
 		<key>Headers/CPCCoreServer.h</key>
 		<data>
-		ceEa3ju7WUVLL68G+asfDxkB73A=
+		Y5KhTSMPn8g+PqZgTlephuYXjK8=
 		</data>
 		<key>Headers/CPCH5WebView.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Headers/CPCInitConfig.h</key>
 		<data>
-		bkJA1ArGs8bsOickcWhcv++lDJo=
+		ApGglM8o+im3qpE8ks35lFwzYPc=
 		</data>
 		<key>Headers/CPCLaunchADViewDelegate.h</key>
 		<data>
@@ -85,22 +85,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6p3qx+1behPFbckI1mkKoc5lFVM=
+			2RCbglvdUGbUWLq1a+4thGAZEUw=
 			</data>
 			<key>hash2</key>
 			<data>
-			qKKiVBAjbO8fudFH+LWKoaPIpKcoDsRORxSXlyqYpbI=
+			CtLMyiCXwoowcemcl0Hrt1Ald1hWZhipCSKCF0qH4RA=
 			</data>
 		</dict>
 		<key>Headers/CPCCoreServer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ceEa3ju7WUVLL68G+asfDxkB73A=
+			Y5KhTSMPn8g+PqZgTlephuYXjK8=
 			</data>
 			<key>hash2</key>
 			<data>
-			3Z/85Tya4YzSxBLNJbVGbLiDxJrJ5I/rS1pWpA46MYs=
+			pJpKGZrkPhMEJc2OZ90nR5O0/KFkP7J0fgzcrNZGGns=
 			</data>
 		</dict>
 		<key>Headers/CPCH5WebView.h</key>
@@ -118,11 +118,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bkJA1ArGs8bsOickcWhcv++lDJo=
+			ApGglM8o+im3qpE8ks35lFwzYPc=
 			</data>
 			<key>hash2</key>
 			<data>
-			OkW0N7omNBpOCaUheq4htLKUmayMvOELt9FCFkOvdNA=
+			p6DCMIUswsQ8tQxV0/Mq7yuTyM2dzBBTHGzD96sVEMA=
 			</data>
 		</dict>
 		<key>Headers/CPCLaunchADViewDelegate.h</key>
