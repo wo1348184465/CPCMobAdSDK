@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/CPCCoreServer.h</key>
 		<data>
-		hjXWeVYmnL1NiafOQTFAmwdTf+o=
+		TWpftekDCylOmuATwYperdUVWSU=
 		</data>
 		<key>Headers/CPCInitConfig.h</key>
 		<data>
@@ -47,6 +47,10 @@
 		<key>Headers/CPCMobAdNativeAdView.h</key>
 		<data>
 		CvKhk6oNhyVcMMnqHfTHwk/GI+k=
+		</data>
+		<key>Headers/CPCWebView.h</key>
+		<data>
+		XsH5v6taPafzZ+WEYsOhfhnKZ88=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -92,11 +96,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hjXWeVYmnL1NiafOQTFAmwdTf+o=
+			TWpftekDCylOmuATwYperdUVWSU=
 			</data>
 			<key>hash2</key>
 			<data>
-			qLLjg8Uqh5ylIfe4KO6tK6S8ROV+P1EI3eIuKsrjy+I=
+			NYLbCT6FurudG7ilOg5iaMjlTvdDbvp01d8I96AfDt4=
 			</data>
 		</dict>
 		<key>Headers/CPCInitConfig.h</key>
@@ -174,6 +178,17 @@
 			<key>hash2</key>
 			<data>
 			F78r0KEGJcA/xWilhjc5OWFXEafJ+0MJOYwC1rGE/vQ=
+			</data>
+		</dict>
+		<key>Headers/CPCWebView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XsH5v6taPafzZ+WEYsOhfhnKZ88=
+			</data>
+			<key>hash2</key>
+			<data>
+			Y+vzOOoP4CkciP9YaYLncPPi+Yy2qluAigeYWJu68ls=
 			</data>
 		</dict>
 	</dict>
