@@ -37,7 +37,7 @@
 		00C1F1A3820CD80D04DDABFE0CAC6CF1 /* YYWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B194E1534968528DCA9A04C50EA27746 /* YYWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0158AF0C6EC0C33148D2F96FE4BE1964 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E477873A1ED6E11CEAA90261156737BD /* YYMemoryCache.m */; };
 		01C0CAA322B8DF81CA9ADA5A77882EEE /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1340601BF15A7AE1716D1AEF0C39105E /* AFNetworkActivityIndicatorManager.m */; };
-		01CC43B567DC3236EA6D0428D545C7DB /* CPCSource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A6E8113F3055FB0397E9649A951CE93 /* CPCSource.xcassets */; };
+		01CC43B567DC3236EA6D0428D545C7DB /* CPCSource.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1859DE0D7ACC41DF2951A8A9915E349B /* CPCSource.xcassets */; };
 		090BB4B07B3C84C6FD7D1B759BBFEC93 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 7315C3B891518235589D30900E6CE816 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09E5C8AF0744749BC4422965CBD4C739 /* Pods-CPCMobAdSDKTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC711932CE92528A97DD13504666BD5D /* Pods-CPCMobAdSDKTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0BC38C9485357E0B726248BF31020CBC /* YYWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 52B00FE04DD8D23E10FF3F1E96AA4653 /* YYWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -272,6 +272,7 @@
 		009DC8E6520FA6DF8F94E829287D8A38 /* _YYWebImageSetter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _YYWebImageSetter.m; path = YYWebImage/Categories/_YYWebImageSetter.m; sourceTree = "<group>"; };
 		00B1A657CFD166869CC499E096875F0D /* YYImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYImageCache.h; path = YYWebImage/YYImageCache.h; sourceTree = "<group>"; };
 		03D37F1CA5ED9EA3D6A0CEC25C7B57D8 /* YYWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYWebImage-prefix.pch"; sourceTree = "<group>"; };
+		05D15213D113B05706DC4A5F9CA6E7D9 /* CPCH5SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CPCH5SDK.framework; path = CPCMobAdSDK/CPCH5SDK/CPCH5SDK.framework; sourceTree = "<group>"; };
 		062EFA43D6C4698EDFA3F0953D555FD9 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		07F3F6BCFB0E90F8B5C38E364A2E3E20 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		08F49E1F35C6F230E31A228C075ECB21 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge.m; sourceTree = "<group>"; };
@@ -287,9 +288,11 @@
 		1161FE3D1D7BC65F3FC67EF75EA9EFD1 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1340601BF15A7AE1716D1AEF0C39105E /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		13884CB4E17717ED79EBCE60A496D6F0 /* WebViewJavascriptBridge_JS.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridge_JS.m; path = WebViewJavascriptBridge/WebViewJavascriptBridge_JS.m; sourceTree = "<group>"; };
+		14375FB6C0C4798BE1BBD55D604795E6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1597B8AB4CFB475021A074E8D25B372D /* Pods-CPCMobAdSDKTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPCMobAdSDKTest_Example-dummy.m"; sourceTree = "<group>"; };
 		1810683006FF0437D114F6F9780551A4 /* YYMemoryCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYMemoryCache.h; path = YYCache/YYMemoryCache.h; sourceTree = "<group>"; };
 		18341248C1DA2A948626092F22B49531 /* Pods-CPCMobAdSDKTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CPCMobAdSDKTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1859DE0D7ACC41DF2951A8A9915E349B /* CPCSource.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CPCSource.xcassets; path = CPCMobAdSDK/Assets/CPCSource.xcassets; sourceTree = "<group>"; };
 		1920681CFCCEE8471463580D299E76A0 /* YYCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYCache.modulemap; sourceTree = "<group>"; };
 		1A7ED0D0DD89AD04CF09D3B4BA8C95D2 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
 		1E74ED0E8E93A05345B473934ED163F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
@@ -313,7 +316,6 @@
 		39BE90EF37F2C93C57BD7050F702691D /* YYImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYImage-umbrella.h"; sourceTree = "<group>"; };
 		3B2BF30C8C52D72A28E15850874C135C /* UIButton+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+YYWebImage.h"; path = "YYWebImage/Categories/UIButton+YYWebImage.h"; sourceTree = "<group>"; };
 		3CDF9AB43EAE9B0A12560018FDAC5CBC /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		3D1DEDB12A93FC20CF962C94169FCF14 /* CPCMobAdSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPCMobAdSDK.xcconfig; sourceTree = "<group>"; };
 		3D54B0E65A756EECE6DD44E12C7C5723 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		3DD7883DD6F9AFBE3356EFD9F18DC675 /* YYWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYWebImage.framework; path = YYWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BF4E215A0E53B55EE52D6FC296FFE3 /* Pods-CPCMobAdSDKTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CPCMobAdSDKTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -327,9 +329,7 @@
 		54DA4D42FE22BC0ABB252F79039844F6 /* WebViewJavascriptBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WebViewJavascriptBridge-Info.plist"; sourceTree = "<group>"; };
 		58F8DD1143CF5C77D2E4B94BA3702BA0 /* Pods_CPCMobAdSDKTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CPCMobAdSDKTest_Tests.framework; path = "Pods-CPCMobAdSDKTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A15DC797B39AE3E16B2F64FDF6DC9AF /* Pods-CPCMobAdSDKTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPCMobAdSDKTest_Tests-Info.plist"; sourceTree = "<group>"; };
-		5A6E8113F3055FB0397E9649A951CE93 /* CPCSource.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CPCSource.xcassets; path = CPCMobAdSDK/Assets/CPCSource.xcassets; sourceTree = "<group>"; };
 		5ADD1934B16AC548D4C9E620B134F964 /* YYCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYCache.h; path = YYCache/YYCache.h; sourceTree = "<group>"; };
-		5BA83F649299ADAAC5F8857AA389BD49 /* CPCMobAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CPCMobAdSDK.framework; path = CPCMobAdSDK/CPCMobAdSDK.framework; sourceTree = "<group>"; };
 		5F2DDAEE41D238FA16DF148225547FD9 /* Pods-CPCMobAdSDKTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPCMobAdSDKTest_Example.modulemap"; sourceTree = "<group>"; };
 		5F3B26C3C25946EEB79CBA5385C1A2ED /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		61D66DB2788EA66F32479A48D53E0CBF /* UIImageView+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+YYWebImage.h"; path = "YYWebImage/Categories/UIImageView+YYWebImage.h"; sourceTree = "<group>"; };
@@ -337,8 +337,8 @@
 		6380B67DED097EC245DFFBC7DFE316F2 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		64793E18C243080C679BD8A74C4D47EA /* YYAnimatedImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYAnimatedImageView.m; path = YYImage/YYAnimatedImageView.m; sourceTree = "<group>"; };
 		64E1808A71668BC410CAF154708567BA /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
+		6841658A93ED1CF6AC0BB91A633C9ABE /* ResourceBundle-CPCMobAdSDK-CPCMobAdSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CPCMobAdSDK-CPCMobAdSDK-Info.plist"; sourceTree = "<group>"; };
 		69546F4506197F4ED1F18321ADCFC38E /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		69DF661764B37E24B0A07492921C7D6C /* ResourceBundle-CPCMobAdSDK-CPCMobAdSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-CPCMobAdSDK-CPCMobAdSDK-Info.plist"; sourceTree = "<group>"; };
 		6BF5EC83F4977AEC2620D501E882B746 /* YYCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYCache-umbrella.h"; sourceTree = "<group>"; };
 		6C3AF4775B97EA8F6690F0B171A68AE6 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		6CDC46472DA4BE142A6BF22272B0EBDF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
@@ -346,6 +346,7 @@
 		7015A739D3FD4D3DD93683D0B9E7C1A5 /* MKAnnotationView+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MKAnnotationView+YYWebImage.h"; path = "YYWebImage/Categories/MKAnnotationView+YYWebImage.h"; sourceTree = "<group>"; };
 		724B02E871880AB04CA75B9713D9CD8D /* CALayer+YYWebImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+YYWebImage.h"; path = "YYWebImage/Categories/CALayer+YYWebImage.h"; sourceTree = "<group>"; };
 		7315C3B891518235589D30900E6CE816 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		7668F89E8040569D8843015026AFEFD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		77480F83E1234673745DDC5BAE3C27FA /* YYWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYWebImage-dummy.m"; sourceTree = "<group>"; };
 		7819DCDB84732CE44F25F16457DC9E1A /* WebViewJavascriptBridge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WebViewJavascriptBridge.framework; path = WebViewJavascriptBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		79AAE174A32E50753FD989F0BA2EA797 /* YYDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYDiskCache.h; path = YYCache/YYDiskCache.h; sourceTree = "<group>"; };
@@ -380,14 +381,15 @@
 		AF645A6D4093A15CED44DB53D55A735E /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYSpriteSheetImage.m; path = YYImage/YYSpriteSheetImage.m; sourceTree = "<group>"; };
 		AFB5D4B9F3ED715BE421A55798F4585B /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		AFF5F5C55D1FFFA2DDA057428FA521A6 /* UIImage+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YYWebImage.m"; path = "YYWebImage/Categories/UIImage+YYWebImage.m"; sourceTree = "<group>"; };
+		B048C59FC6B7877206AF7C58178FAF38 /* CPCMobAdSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CPCMobAdSDK.xcconfig; sourceTree = "<group>"; };
 		B194E1534968528DCA9A04C50EA27746 /* YYWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYWebImage-umbrella.h"; sourceTree = "<group>"; };
 		B2A359C4FDFC20C8D7541FC33DEA8F2B /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		B3259737D3C43E5A81549C0E7A610A1F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		B55526809F43EE8ED9CB0E7AE627A074 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B888D3D894FC8F86485959886842EA9E /* YYImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImageCache.m; path = YYWebImage/YYImageCache.m; sourceTree = "<group>"; };
 		B8E0DF253D4FBAE2F4E06D5BE97B66A8 /* Pods-CPCMobAdSDKTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CPCMobAdSDKTest_Tests.modulemap"; sourceTree = "<group>"; };
 		B9F1698955A3EADB4E9CAF8F675DC6CF /* Pods-CPCMobAdSDKTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CPCMobAdSDKTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		BA9CF9718A6AEE5DA8C77A4A88DD85E1 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		BD943FED75527034E24A2AB30CFCE457 /* CPCMobAdSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CPCMobAdSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE5709DA3C2BC92C060AACCA33E9E88F /* YYWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YYWebImage.modulemap; sourceTree = "<group>"; };
 		BF4D22A6D9DD68BD2E12DE68A87C5865 /* YYImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19D6A7F1E74145C1B5F380723A0B4A6 /* CALayer+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+YYWebImage.m"; path = "YYWebImage/Categories/CALayer+YYWebImage.m"; sourceTree = "<group>"; };
@@ -397,7 +399,6 @@
 		CF5F51F1B085E8ADE495372F14888301 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		D11EE0E6E0D000893C3E2B7114E630C8 /* YYKVStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYKVStorage.h; path = YYCache/YYKVStorage.h; sourceTree = "<group>"; };
 		D3A51C71199A49FCB2B05448B21E6125 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WebViewJavascriptBridgeBase.m; path = WebViewJavascriptBridge/WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
-		D4DDB4599FEEA2CB959DF0771EE54F2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D845BE26F3CAA4E9B95A3B52F8587441 /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
 		D9E7C47D09C9A4EF511862B73ED70C6C /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		DB8360F5E2D9EE58FA06AD16B43D9C83 /* UIButton+YYWebImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+YYWebImage.m"; path = "YYWebImage/Categories/UIButton+YYWebImage.m"; sourceTree = "<group>"; };
@@ -406,7 +407,6 @@
 		DF97F07D188D33823D70EE1A9E2EB448 /* YYImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YYImage.framework; path = YYImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D2871DBB0229CC7D128055D468B94A /* BaiduMobAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMobAdSDK.framework; path = CPCBaiduMobAdSDK/BaiduMobAdSDK.framework; sourceTree = "<group>"; };
 		E238ED3F230EE9E72FE55626A28511D2 /* Pods-CPCMobAdSDKTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CPCMobAdSDKTest_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E278ECB50AEBBBA32DB0C34F89CE27E5 /* CPCMobAdSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CPCMobAdSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E3580CB38D79963977A4F2F0ED2584EA /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		E477873A1ED6E11CEAA90261156737BD /* YYMemoryCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYMemoryCache.m; path = YYCache/YYMemoryCache.m; sourceTree = "<group>"; };
 		E67E3887EB9D3D0CBF7BC02F75EFCDB7 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
@@ -424,6 +424,7 @@
 		F4F73754BE0BEA297238F94A496DD4CE /* YYFrameImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYFrameImage.h; path = YYImage/YYFrameImage.h; sourceTree = "<group>"; };
 		F763C9888F28EC9642EA3B0F3F47B3F1 /* Pods-CPCMobAdSDKTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CPCMobAdSDKTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F7FC032467C0B8F3C03BDEC3A4EC8B95 /* YYWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYWebImageOperation.h; path = YYWebImage/YYWebImageOperation.h; sourceTree = "<group>"; };
+		F888A4217F542C27802EA7804B3ED6AE /* CPCMobAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CPCMobAdSDK.framework; path = CPCMobAdSDK/CPCMobAdSDK.framework; sourceTree = "<group>"; };
 		F96B9A7956759A630A1A9D90DCF451F3 /* YYImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYImageCoder.m; path = YYImage/YYImageCoder.m; sourceTree = "<group>"; };
 		FB540FFE3B6F8F7661971D0FBA87A586 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		FC3D63A701B72FDF9851082DFEC3D4E7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
@@ -521,6 +522,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0024B007A9B620634136C16D6D609FBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B048C59FC6B7877206AF7C58178FAF38 /* CPCMobAdSDK.xcconfig */,
+				6841658A93ED1CF6AC0BB91A633C9ABE /* ResourceBundle-CPCMobAdSDK-CPCMobAdSDK-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CPCMobAdSDK";
+			sourceTree = "<group>";
+		};
 		03027FFA0D53DB659C8F0DBFE25C2F3D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -563,6 +574,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		143CEF256922C8613499AD6C8840CBC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F888A4217F542C27802EA7804B3ED6AE /* CPCMobAdSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		15974B6E2E9EA8F6A6371411B8A3AA41 /* WebViewJavascriptBridge */ = {
 			isa = PBXGroup;
 			children = (
@@ -589,14 +608,12 @@
 			path = "../Target Support Files/CPCBaiduMobAdSDK";
 			sourceTree = "<group>";
 		};
-		2BABB7AD06058CD4FDA7D468C6BE3070 /* Pod */ = {
+		381231FA423B3871B4B5EA70B6AFD612 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E278ECB50AEBBBA32DB0C34F89CE27E5 /* CPCMobAdSDK.podspec */,
-				B55526809F43EE8ED9CB0E7AE627A074 /* LICENSE */,
-				D4DDB4599FEEA2CB959DF0771EE54F2A /* README.md */,
+				3B28F9B0E3EA8509ECF33636BABF3F71 /* CPCMobAdSDK */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		381B1A91C4FBBF95F2182E08D3751F92 /* NSURLSession */ = {
@@ -610,6 +627,19 @@
 			name = NSURLSession;
 			sourceTree = "<group>";
 		};
+		3B28F9B0E3EA8509ECF33636BABF3F71 /* CPCMobAdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D177311AAC53082D99A256107BE1DC1A /* CPCH5SDK */,
+				143CEF256922C8613499AD6C8840CBC7 /* Frameworks */,
+				A3DA33B92456E06BD664A2A38419F815 /* Pod */,
+				5C24537CA4101BF3F9108A8D137ACBA1 /* Resources */,
+				0024B007A9B620634136C16D6D609FBC /* Support Files */,
+			);
+			name = CPCMobAdSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		42040DA8D74137E133C0EE3C2B6AD3EB /* CPCBaiduMobAdSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -618,16 +648,6 @@
 			);
 			name = CPCBaiduMobAdSDK;
 			path = CPCBaiduMobAdSDK;
-			sourceTree = "<group>";
-		};
-		4B4CA125FEFD24C190F41909B7A6525B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3D1DEDB12A93FC20CF962C94169FCF14 /* CPCMobAdSDK.xcconfig */,
-				69DF661764B37E24B0A07492921C7D6C /* ResourceBundle-CPCMobAdSDK-CPCMobAdSDK-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CPCMobAdSDK";
 			sourceTree = "<group>";
 		};
 		5A01CCA2C90CC011E282D3A5420E2453 /* Pods-CPCMobAdSDKTest_Tests */ = {
@@ -659,6 +679,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		5C24537CA4101BF3F9108A8D137ACBA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1859DE0D7ACC41DF2951A8A9915E349B /* CPCSource.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		5F924121B65F386705F3B4D1667353AC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -671,14 +699,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/YYImage";
-			sourceTree = "<group>";
-		};
-		89E2928D002251EAA7476908CF804D77 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5A6E8113F3055FB0397E9649A951CE93 /* CPCSource.xcassets */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		8CE61B00812BCCA9671B2BD65479F47A /* Reachability */ = {
@@ -760,6 +780,16 @@
 				AF645A6D4093A15CED44DB53D55A735E /* YYSpriteSheetImage.m */,
 			);
 			name = Core;
+			sourceTree = "<group>";
+		};
+		A3DA33B92456E06BD664A2A38419F815 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BD943FED75527034E24A2AB30CFCE457 /* CPCMobAdSDK.podspec */,
+				7668F89E8040569D8843015026AFEFD6 /* LICENSE */,
+				14375FB6C0C4798BE1BBD55D604795E6 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		A5A8EF6539A0453260718DE33BE8D995 /* YYWebImage */ = {
@@ -896,12 +926,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E0E2662A7BA234594C7D08F1C7670687 /* Development Pods */,
+				381231FA423B3871B4B5EA70B6AFD612 /* Development Pods */,
 				D7F1D0B3AF19D41337040E65730A3535 /* Frameworks */,
 				5AF8A417D3FA79CC495D144982F9009A /* Pods */,
 				C1FA5EF1409897CEE9AB4D4C28A77D9F /* Products */,
 				106F0BD3EE7E61DDE516E43DA25FBD95 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D177311AAC53082D99A256107BE1DC1A /* CPCH5SDK */ = {
+			isa = PBXGroup;
+			children = (
+				EC1CA2682A95E5A3E5C2193F799FBD2B /* Frameworks */,
+			);
+			name = CPCH5SDK;
 			sourceTree = "<group>";
 		};
 		D7A76E2BB94BB7C07E0F538D5E81157A /* AFNetworking */ = {
@@ -929,32 +967,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DB45924D26F7AD50459A3DCE210A28E2 /* Frameworks */ = {
+		EC1CA2682A95E5A3E5C2193F799FBD2B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5BA83F649299ADAAC5F8857AA389BD49 /* CPCMobAdSDK.framework */,
+				05D15213D113B05706DC4A5F9CA6E7D9 /* CPCH5SDK.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E0E2662A7BA234594C7D08F1C7670687 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F8E8D63B7BC4E99F599065B26451F896 /* CPCMobAdSDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F8E8D63B7BC4E99F599065B26451F896 /* CPCMobAdSDK */ = {
-			isa = PBXGroup;
-			children = (
-				DB45924D26F7AD50459A3DCE210A28E2 /* Frameworks */,
-				2BABB7AD06058CD4FDA7D468C6BE3070 /* Pod */,
-				89E2928D002251EAA7476908CF804D77 /* Resources */,
-				4B4CA125FEFD24C190F41909B7A6525B /* Support Files */,
-			);
-			name = CPCMobAdSDK;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1507,7 +1525,7 @@
 /* Begin XCBuildConfiguration section */
 		063950C67ADD4789ECDA52389BE19057 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D1DEDB12A93FC20CF962C94169FCF14 /* CPCMobAdSDK.xcconfig */;
+			baseConfigurationReference = B048C59FC6B7877206AF7C58178FAF38 /* CPCMobAdSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CPCMobAdSDK";
@@ -1617,7 +1635,7 @@
 		};
 		3049C2758611CABEDF54DDB112C70D92 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D1DEDB12A93FC20CF962C94169FCF14 /* CPCMobAdSDK.xcconfig */;
+			baseConfigurationReference = B048C59FC6B7877206AF7C58178FAF38 /* CPCMobAdSDK.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/CPCMobAdSDK";
@@ -2098,7 +2116,7 @@
 		};
 		DE49E88C021C117188D6E61EC5CF86D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D1DEDB12A93FC20CF962C94169FCF14 /* CPCMobAdSDK.xcconfig */;
+			baseConfigurationReference = B048C59FC6B7877206AF7C58178FAF38 /* CPCMobAdSDK.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2112,7 +2130,7 @@
 		};
 		F7768E3F226C369A6BA8AA8CC09330F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D1DEDB12A93FC20CF962C94169FCF14 /* CPCMobAdSDK.xcconfig */;
+			baseConfigurationReference = B048C59FC6B7877206AF7C58178FAF38 /* CPCMobAdSDK.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

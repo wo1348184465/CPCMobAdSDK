@@ -9,7 +9,11 @@
 #import "CPCViewController.h"
 #import <CPCMobAdSDK/CPCCoreServer.h>
 #import "CustomLayoutViewController.h"
-@interface CPCViewController ()<CPCADViewDelegate>
+#import "TableViewController.h"
+
+#import <CPCH5SDK/CPCWebView.h>
+
+@interface CPCViewController ()<CPCADViewDelegate,CPCWebViewDelegate>
 
 
 
@@ -35,15 +39,30 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *isRightButton;
 
-
+@property (nonatomic , strong) CPCWebView * web;
 @end
 
 @implementation CPCViewController
 
 
 
+
+
+
+
+
+
 int i = 0;
 - (IBAction)ActionShowADView:(id)sender {
+    
+    
+    
+    
+    
+    NSMutableArray * arr= [NSMutableArray array];
+    
+    [arr addObject:@"1"];
+    
     
     
     NSString * adid = ([self.adIdTextField.text isEqualToString:@""] ?@"7277638": self.adIdTextField.text );
@@ -67,7 +86,14 @@ int i = 0;
     config.edgeInset = edgeInset;
     config.titleImageOffset = 10;
     config.titleFont = [UIFont systemFontOfSize:18];
-    config.imageOffset = 10;
+    
+    config.imageOffset = 5;
+    [config setVideoType:1];
+    config.channel = @"123445";
+    config.memberid = @"1234";
+    //    config.aspectRatio = 0.1;
+    
+    
     
     if (self.isRightButton.selected == 1) {
         config.isRight = YES;
@@ -80,7 +106,7 @@ int i = 0;
     }
     config.time = @"12:30";
     //    config.push = self;
-    [config setVideoType:0];
+    //    [config setVideoType:1];
     //        config.clickSize = CGSizeMake(0, 200);
     //    config.style = 404100;
     
@@ -94,15 +120,24 @@ int i = 0;
     
     [[CPCCoreServer sharedInstance] cpcGetADModel:config success:^(CPCADViewConfigModel *adViewModel) {
         
+        
+        NSLog(@" model 高度:**************************************  == %f",adViewModel.cellHeight);
         // 有百度打底
         
         adViewModel.pushRootVC = self;
         
+        
+        
+        BOOL isExpired =   [[CPCCoreServer sharedInstance] cpcIsExpired:adViewModel];
+        
+        
+        NSLog(@"--- 是否过期:%d" , isExpired);
+        
         UIView * adView = [[CPCCoreServer sharedInstance] cpcShowView:adViewModel setDelegate:self];
+        [adView setBackgroundColor:[UIColor blackColor]];
         
         
-        
-        [adView setBackgroundColor:[UIColor grayColor ]];
+        //            [adView setBackgroundColor:[UIColor grayColor ]];
         if (adView != nil) {
             
             CGRect fr = adView.frame;
@@ -113,8 +148,8 @@ int i = 0;
                 
                 adViewModel.width = 300;
                 
-                fr.origin.x = 0;
-                fr.size.width = 300;
+                fr.origin.x = (self.view.frame.size.width - adView.frame.size.width)/2;
+                //                    fr.size.width = 300;
                 [adView setFrame:fr];
                 [self.view addSubview:adView];
                 i = i + 1;
@@ -123,9 +158,14 @@ int i = 0;
             else
             {
                 
+                //                    fr.origin.x = (self.view.frame.size.width - adView.frame.size.width)/2;
+                //                    fr.origin.y = 100;
+                //                    fr.size.width = 327;
+                //                    fr.size.height = 269.48;
+                //                    fr.size.width = 300;
                 [adView setFrame:fr];
                 [self.view addSubview:adView];
-                NSLog(@"高度:-----------------------%f",adView.frame.size.height);
+                NSLog(@"高度:-----------------------%f   宽度:%f",adView.frame.size.height,adView.frame.size.width);
                 
                 i = i + 1;
                 [self.adViewArr addObject:adView];
@@ -136,11 +176,10 @@ int i = 0;
         
         
         
-        NSLog(@" model 高度:**************************************  == %f",adViewModel.cellHeight);
         
         
     } failure:^(NSError *error) {
-        
+        NSLog(@"error == %@",error);
     }];
     
     
@@ -203,6 +242,10 @@ int i = 0;
     
     CustomLayoutViewController * baidu = [[CustomLayoutViewController alloc]init];
     [self.navigationController pushViewController:baidu animated:YES];
+    
+    
+    
+    
 }
 
 
@@ -220,12 +263,97 @@ int i = 0;
 - (IBAction)isRightAction:(id)sender {
     self.isRightButton.selected = !self.isRightButton.selected;
 }
+
+
+#pragma mark -
+#pragma mark 互动广告
+- (IBAction)hudongAction:(id)sender {
+    
+    
+    //    NSMutableDictionary * dic = [[NSMutableDictionary alloc]init];
+    //    [dic setObject:@"12345" forKey:@"getMemberid"];
+    //
+    //    UIViewController * ctrl = [[CPCCoreServer sharedInstance] loadH5FromeUrl:@"http://cfg.aiclk.com/hdjump?iclicashid=7654888" andDic:dic backHiddenNav:YES];
+    //
+    //
+    //    [self.navigationController pushViewController:ctrl animated:YES];
+    
+    
+    //    TableViewController * table = [[TableViewController alloc]init];
+    //    table.adverts = self.adViewArr;
+    //    [self.navigationController pushViewController:table animated:YES];
+    
+    
+    
+    
+    
+    
+    //
+    //    self.web = [[CPCWebView alloc]initWithFrame:self.view.frame];
+    //    self.web.url = @"http://game-motivatead.qutuiwa.com/richprize_kb/richprize_kb.html";
+    ////    web.cpcDelegate = self;
+    ////    self.web.UIDelegate = self;
+    ////    self.web.navigationDelegate = self;
+    //    NSMutableDictionary * dic = [[NSMutableDictionary alloc]init];
+    //    [dic setObject:@"12345" forKey:@"getMemberid"];
+    //    [self.view addSubview:self.web];
+    //    self.web.infoDic = dic;
+    //    [self.web loadRequest];
+    
+    //    [self.web loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:[@"http://game-motivatead.qutuiwa.com/richprize_kb/richprize_kb.html" stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]]];
+    
+    
+    
+    
+    
+    self.web = [[CPCWebView alloc] initWithFrame:self.view.bounds];
+    self.web.CPCWebDelegate = self;
+    self.web.url = @"http://game-motivatead.qutuiwa.com/wakuang_kb/wakuang_kb.html?iclicashid=7654887";
+    self.web.memberid = @"12334564";
+    [self.web loadRequest];
+    [self.view addSubview:self.web];
+    
+    
+    UIButton *buttonName = [UIButton buttonWithType:UIButtonTypeCustom];
+    [buttonName setFrame:CGRectMake(100,100, 100, 100)];
+    [buttonName setBackgroundColor:[UIColor redColor]];
+    [buttonName setTitle:@"title" forState:UIControlStateNormal];
+    [buttonName addTarget:self action:@selector(goback1:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:    buttonName];
+}
+
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation
+{
+    
+}
+
+
+- (void)goback1:(UIButton *)sender
+{
+    
+    if ([self.web canGoBack]) {
+        
+        [self.web goBack];
+    }
+    else
+    {
+        [self.web removeFromSuperview];
+    }
+    
+    
+}
+
+
 #pragma mark -
 #pragma mark 滚动区域
 -(void)viewDidLayoutSubviews
 {
     self.scrollView.contentSize = CGSizeMake(self.view.frame.size.width,700);
 }
+
+
+
+
 #pragma mark -
 #pragma mark 取消第一响应者
 - (void)resignFirst
@@ -243,6 +371,29 @@ int i = 0;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
+    //
+    //    UIImageView * imageview = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height * 0.8)];
+    //    [imageview setImage:[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:@"http://localhost/fuchouzhe"]]]];
+    //    [imageview setContentMode:UIViewContentModeScaleAspectFill];
+    //    [self.view addSubview:imageview];
+    //
+    ////    (origin = (x = 309, y = 49), size = (width = 90, height = 33))
+    ////    self.frame = CGRectMake(XH_ScreenW-90 - 15,49, 90, 33);
+    //
+    //    UIButton *buttonName = [UIButton buttonWithType:UIButtonTypeCustom];
+    //    [buttonName setFrame:CGRectMake(309,49, 90, 33)];
+    //    [buttonName setBackgroundColor:[UIColor redColor]];
+    //    [buttonName setTitle:@"title" forState:UIControlStateNormal];
+    //    [buttonName addTarget:self action:@selector(ActionName) forControlEvents:UIControlEventTouchUpInside];
+    //    [self.view addSubview:buttonName];
+    
+    //
+    
+    
+    
+    
     //    [ADSCoreServer sharedInstance].delegate = self;
     
     
@@ -280,16 +431,7 @@ int i = 0;
     self.adViewArr = [[NSMutableArray alloc] initWithCapacity:0];
     self.adModelArr = [[NSMutableArray alloc]initWithCapacity:0];
     
-    //    [self addviews];
     
-    
-    
-    //    UIButton *buttonName = [UIButton buttonWithType:UIButtonTypeCustom];
-    //    [buttonName setFrame:CGRectMake(100,100, 100, 100)];
-    //    [buttonName setBackgroundColor:[UIColor redColor]];
-    //    [buttonName setTitle:@"title" forState:UIControlStateNormal];
-    //    [buttonName addTarget:self action:@selector(ActionName) forControlEvents:UIControlEventTouchUpInside];
-    //    [self.view addSubview:buttonName];
     
     
     

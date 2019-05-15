@@ -24,9 +24,9 @@
 		C64A3EDC21A2B3A7004ED18D /* Pods_CPCMobAdSDKTest_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64A3EDB21A2B3A7004ED18D /* Pods_CPCMobAdSDKTest_Example.framework */; };
 		C64A62742193015100E80891 /* CPCMobAdSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C64A62732193015100E80891 /* CPCMobAdSDK.podspec */; };
 		C64A6277219301C900E80891 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C64A6275219301C900E80891 /* TableViewController.m */; };
-		C64A655A2199AF6D00E80891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64A65592199AF6D00E80891 /* Main.storyboard */; };
 		C681E46A21D36B9F006F6462 /* CustomLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C681E46821D36B9E006F6462 /* CustomLayoutViewController.m */; };
 		C6B1475121BE5A9B000472EC /* CPCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B1475021BE5A9B000472EC /* CPCViewController.m */; };
+		C6BEB75C228BF964008076DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BEB75B228BF964008076DF /* Main.storyboard */; };
 		C6CE766621A57BA0005C243A /* CPCMobAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CE764721A56425005C243A /* CPCMobAdSDK.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,14 +81,13 @@
 		C64A62732193015100E80891 /* CPCMobAdSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CPCMobAdSDK.podspec; path = ../CPCMobAdSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C64A6275219301C900E80891 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		C64A6276219301C900E80891 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
-		C64A65592199AF6D00E80891 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C681E46821D36B9E006F6462 /* CustomLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayoutViewController.m; sourceTree = "<group>"; };
 		C681E46921D36B9F006F6462 /* CustomLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayoutViewController.h; sourceTree = "<group>"; };
 		C6B1474F21BE5A9B000472EC /* CPCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPCViewController.h; sourceTree = "<group>"; };
 		C6B1475021BE5A9B000472EC /* CPCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPCViewController.m; sourceTree = "<group>"; };
+		C6BEB75B228BF964008076DF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C6CE764721A56425005C243A /* CPCMobAdSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CPCMobAdSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6CE766521A57B7E005C243A /* CPCMobAdSDKTest_Example copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CPCMobAdSDKTest_Example copy-Info.plist"; path = "/Users/dinghao/Documents/CPC/CPCMobAdSDK/Example/CPCMobAdSDKTest_Example copy-Info.plist"; sourceTree = "<absolute>"; };
-		C6CE768521A5801D005C243A /* CPCMobAdSDKTest_Example copy2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CPCMobAdSDKTest_Example copy2-Info.plist"; path = "/Users/dinghao/Documents/CPC/CPCMobAdSDK/Example/CPCMobAdSDKTest_Example copy2-Info.plist"; sourceTree = "<absolute>"; };
 		D2F12FFEE6B93414724D6911 /* Pods-CPCMobAdSDKTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCMobAdSDKTest_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPCMobAdSDKTest_Tests/Pods-CPCMobAdSDKTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D8D1779FB99A053C116879C9 /* Pods-CPCMobAdSDKTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CPCMobAdSDKTest_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CPCMobAdSDKTest_Example/Pods-CPCMobAdSDKTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F97095F5DCF75C180C9C37F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -131,7 +130,6 @@
 				6003F58B195388D20070C39A /* Products */,
 				E60026C04ED10BF11AC4C6CC /* Pods */,
 				C6CE766521A57B7E005C243A /* CPCMobAdSDKTest_Example copy-Info.plist */,
-				C6CE768521A5801D005C243A /* CPCMobAdSDKTest_Example copy2-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,7 +166,7 @@
 				6003F59D195388D20070C39A /* CPCAppDelegate.m */,
 				C681E46921D36B9F006F6462 /* CustomLayoutViewController.h */,
 				C681E46821D36B9E006F6462 /* CustomLayoutViewController.m */,
-				C64A65592199AF6D00E80891 /* Main.storyboard */,
+				C6BEB75B228BF964008076DF /* Main.storyboard */,
 				C64A6276219301C900E80891 /* TableViewController.h */,
 				C64A6275219301C900E80891 /* TableViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -242,8 +240,8 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				15A1191731377751DA89BF11 /* [CP] Embed Pods Frameworks */,
-				6CF35B40458D3FED9535D455 /* [CP] Copy Pods Resources */,
 				C64A3F0121A3E2DF004ED18D /* Embed Frameworks */,
+				BAD275E80AB2C7311B483718 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,7 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				C64A655A2199AF6D00E80891 /* Main.storyboard in Resources */,
+				C6BEB75C228BF964008076DF /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 				C64A62742193015100E80891 /* CPCMobAdSDK.podspec in Resources */,
@@ -397,7 +395,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6CF35B40458D3FED9535D455 /* [CP] Copy Pods Resources */ = {
+		BAD275E80AB2C7311B483718 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

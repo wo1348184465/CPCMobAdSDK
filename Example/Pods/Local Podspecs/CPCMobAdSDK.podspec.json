@@ -1,6 +1,6 @@
 {
   "name": "CPCMobAdSDK",
-  "version": "0.1.0.82.0425",
+  "version": "0.1.0.90.0513",
   "summary": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测",
   "description": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测",
   "homepage": "https://github.com/wo1348184465/CPCMobAdSDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wo1348184465/CPCMobAdSDK.git",
-    "tag": "0.1.0.82.0425"
+    "tag": "0.1.0.90.0513"
   },
   "platforms": {
     "ios": "8.0"
@@ -52,5 +52,11 @@
       "1.0.5"
     ]
   },
-  "vendored_frameworks": "CPCMobAdSDK/*.{framework}"
+  "vendored_frameworks": "CPCMobAdSDK/*.{framework}",
+  "subspecs": [
+    {
+      "name": "CPCH5SDK",
+      "vendored_frameworks": "CPCMobAdSDK/CPCH5SDK/*.{framework}"
+    }
+  ]
 }
