@@ -46,6 +46,7 @@ typedef NS_ENUM(NSInteger , CPCVideoADViewType)
 
 @property (nonatomic, assign) NSString * time;// 
 
+@property (nonatomic, assign) int  isNewStyle;//
 
 
 @property(nonatomic, assign) CPCVideoADViewType videoType; 

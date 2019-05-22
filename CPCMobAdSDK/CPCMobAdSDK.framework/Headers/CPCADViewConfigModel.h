@@ -47,6 +47,8 @@
 
 @property (nonatomic , assign) CGFloat width;
 
+@property (nonatomic , assign) int countdown; // 倒计时
+
 
 @property (nonatomic , assign) long long requestTime; //请求时间
 
