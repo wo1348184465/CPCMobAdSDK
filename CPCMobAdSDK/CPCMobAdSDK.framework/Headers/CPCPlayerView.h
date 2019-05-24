@@ -18,6 +18,7 @@ typedef NS_ENUM(NSInteger, TouchPlayerViewMode) {
     TouchPlayerViewModeUnknow, // 未知
 };
 
+typedef void(^AVPlayerItemReadyToPlayBlock)(void);
 
 @interface CPCPlayerView : UIView
 
@@ -30,6 +31,7 @@ typedef NS_ENUM(NSInteger, TouchPlayerViewMode) {
 @property (nonatomic, strong) NSURL * url;
 @property (strong, nonatomic) UISlider *playProgress; // 播放进度
 @property (strong, nonatomic) AVPlayerItem * playerItem;
+@property (nonatomic, copy, nullable) AVPlayerItemReadyToPlayBlock playerItemReadyToPlayBlock;
 
 // 播放状态
 @property (nonatomic, assign) BOOL isPlaying;
