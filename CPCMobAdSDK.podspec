@@ -45,10 +45,10 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
 
   s.vendored_frameworks = 'CPCMobAdSDK/*.{framework}' 
 
-  s.subspec 'CPCH5SDK' do |ss|
-      ss.vendored_frameworks = 'CPCMobAdSDK/CPCH5SDK/*.{framework}' 
+#   s.subspec 'CPCH5SDK' do |ss|
+#       ss.vendored_frameworks = 'CPCMobAdSDK/CPCH5SDK/*.{framework}' 
 
-end
+# end
 
 end
 
