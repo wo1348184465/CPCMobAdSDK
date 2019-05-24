@@ -48,7 +48,6 @@
 @property (nonatomic , assign) CGFloat width;
 
 
-
 @property (nonatomic , assign) long long requestTime; //请求时间
 
 @property (nonatomic , assign) int functionId; // 功能号
