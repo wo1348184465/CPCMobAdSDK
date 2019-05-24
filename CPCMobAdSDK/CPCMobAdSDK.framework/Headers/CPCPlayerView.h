@@ -19,13 +19,13 @@ typedef NS_ENUM(NSInteger, TouchPlayerViewMode) {
 };
 
 
-@interface CPCPlayerView : UIView<NSCopying,NSMutableCopying>
+@interface CPCPlayerView : UIView
 
 // AVPlayer 控制视频播放
 @property (nonatomic, strong) AVPlayer *player;
 @property (nonatomic, strong) AVPlayerLayer *playerLayer;
 @property (nonatomic, strong) NSURL * url;
-@property (strong, nonatomic)  UISlider *playProgress; // 播放进度
+@property (strong, nonatomic) UISlider *playProgress; // 播放进度
 @property (strong, nonatomic) AVPlayerItem * playerItem;
 
 // 播放状态

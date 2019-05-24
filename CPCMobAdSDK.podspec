@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
-  s.version          = '0.1.0.93.0522.340.1' #1 趣头条 2.小说 3.其他内媒
+  s.version          = '0.1.0.94.0524.340.1' #1 趣头条 2.小说 3.其他内媒
   s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测'
 
 
