@@ -21,6 +21,9 @@ typedef NS_ENUM(NSInteger, TouchPlayerViewMode) {
 
 @interface CPCPlayerView : UIView
 
+@property (nonatomic , assign)         int isRealPlay; // 是否正在播放
+
+
 // AVPlayer 控制视频播放
 @property (nonatomic, strong) AVPlayer *player;
 @property (nonatomic, strong) AVPlayerLayer *playerLayer;
@@ -54,6 +57,8 @@ typedef NS_ENUM(NSInteger, TouchPlayerViewMode) {
 
 // 暂停
 - (void)pause;
+
+
 
 @end
 
