@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+#import <UIKit/UIKit.h>/Users/dinghao/Documents/CPCMobSDKProject/CPCMobAdSDK/CPCMobAdSDK/PublicHeader/CPCADViewDelegate.h
 #import "CPCLaunchAdViewConfig.h"
 #import "CPCLaunchADViewDelegate.h"
 #import "CPCAdViewConfig.h"
