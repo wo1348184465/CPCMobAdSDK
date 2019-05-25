@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 @property (nonatomic , strong) NSString * tkid;
+@property (nonatomic , strong) NSString * tuid;
+
 
 
 @property (nonatomic , assign) BOOL isUseBaidu;
