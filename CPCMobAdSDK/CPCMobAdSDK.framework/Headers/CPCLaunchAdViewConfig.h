@@ -38,9 +38,12 @@ typedef NS_ENUM(NSInteger, Animation) {
 /** 当前的window */
 @property(nonatomic, strong) UIWindow * window;
 
-
+/** 开屏消失动画  **/
 @property (nonatomic , assign) Animation animate;
 
+
+/** 用于跳转的跟视图, 不传则自动获取  **/
+@property (nonatomic , strong) UIViewController * rootVC;
 
 
 
