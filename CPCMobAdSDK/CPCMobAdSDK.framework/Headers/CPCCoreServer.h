@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>/Users/dinghao/Documents/CPCMobSDKProject/CPCMobAdSDK/CPCMobAdSDK/PublicHeader/CPCADViewDelegate.h
+#import <UIKit/UIKit.h>
 #import "CPCLaunchAdViewConfig.h"
 #import "CPCLaunchADViewDelegate.h"
 #import "CPCAdViewConfig.h"
@@ -16,7 +16,7 @@
 #import "CPCInitConfig.h"
 
 
-#define CPCMOBADSDK_VERSION @"0.1.0.94.0522.340.5" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.0.94.0522.340.6" // 互动, sketch
 
 
 NS_ASSUME_NONNULL_BEGIN
