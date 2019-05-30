@@ -15,11 +15,12 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CPCMobAdNativeAdObject : NSObject
 
 // 类型
-@property (nonatomic , assign) int ad_type;
+@property (nonatomic , assign) int ad_type; //物料类型1、图文 2、图片3、组图 4、视频5、互动 6、开屏7、横幅 8、激励 9、文
 
 
 
-
+// 视频第一帧
+@property (nonatomic , strong) NSString * adct_logo_url;
 
 
 // 标题
@@ -51,6 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic , strong) NSArray * adct_clk;
 
 
+@property (nonatomic , assign) BOOL isLaunchAd;
 
 
 
