@@ -27,6 +27,7 @@
 - (void)CPCClickCallBack:(UIView *)adview;
 
 
-
+// 广告移除回调
+- (void)CPCAdViewWillRemove:(UIView *)adView;
 
 @end
