@@ -47,6 +47,7 @@
 
 @property (nonatomic , assign) CGFloat width;
 
+@property (nonatomic , assign) BOOL isheight;
 
 
 @property (nonatomic , assign) long long requestTime; //请求时间

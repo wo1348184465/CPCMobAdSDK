@@ -16,7 +16,7 @@
 #import "CPCInitConfig.h"
 
 
-#define CPCMOBADSDK_VERSION @"0.1.1.0.0610.345.1" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.1.0.0610.345.2" // 互动, sketch
 
 
 NS_ASSUME_NONNULL_BEGIN
