@@ -57,9 +57,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-
-
-- (CPCMobAdNativeAdObject *)interpreterResponseV4:(id)responseObject;
+- (CPCMobAdNativeAdObject *)interpreterResponse:(id)responseObject;
 
 /**
  * 发送展现
