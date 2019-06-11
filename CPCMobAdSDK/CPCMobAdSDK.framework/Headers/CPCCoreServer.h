@@ -16,7 +16,7 @@
 #import "CPCInitConfig.h"
 
 
-#define CPCMOBADSDK_VERSION @"0.1.1.0.0610.345.2" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.1.0.0611.345.4" // 互动, sketch
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -37,6 +37,9 @@ NS_ASSUME_NONNULL_BEGIN
  @return 单例对象
  */
 + (CPCCoreServer *)sharedInstance;
+
+// 开启定位
+- (void)startLocation;
 
 
 /**

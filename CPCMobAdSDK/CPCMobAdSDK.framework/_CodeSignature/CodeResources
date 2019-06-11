@@ -6,19 +6,19 @@
 	<dict>
 		<key>Headers/CPCADViewConfigModel.h</key>
 		<data>
-		THSOr6VGUrtF7mhbf6IVxej3vp0=
+		Q1qyIMEbcv3GCY0kFUpRVNQ5M34=
 		</data>
 		<key>Headers/CPCADViewDelegate.h</key>
 		<data>
-		1GjXsV6zL4zwiSOG0bSpaN4Cj8s=
+		pnUtjRcr3w7T7iFQb/M73VPP9V8=
 		</data>
 		<key>Headers/CPCAdViewConfig.h</key>
 		<data>
-		4WfIag6KmPAdAUsbiDVbLlJLat4=
+		i11BO38sdUwrELp47R26ZwkB2yQ=
 		</data>
 		<key>Headers/CPCCoreServer.h</key>
 		<data>
-		0jz7ejuz/l9QJEU+UNUl3NKTa9c=
+		TtWK6RBUJZBAPWM/aT/PBgUI/TE=
 		</data>
 		<key>Headers/CPCInitConfig.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/CPCMobAdNativeAdObject.h</key>
 		<data>
-		KZz0PYRrlPmXJxRd4rFeIuKx7iU=
+		r51VwVGy18k9RMhEsiGzfWJXUr4=
 		</data>
 		<key>Headers/CPCMobAdNativeAdView.h</key>
 		<data>
@@ -63,44 +63,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			THSOr6VGUrtF7mhbf6IVxej3vp0=
+			Q1qyIMEbcv3GCY0kFUpRVNQ5M34=
 			</data>
 			<key>hash2</key>
 			<data>
-			HYbaLxLlkU7m6nIIc3/hQf5pMjejx3srsPsAKCNzrm8=
+			f5UXwjbm+51hG3mU06AEpJ9xr+QUyiLaqTZzgTI97Fs=
 			</data>
 		</dict>
 		<key>Headers/CPCADViewDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1GjXsV6zL4zwiSOG0bSpaN4Cj8s=
+			pnUtjRcr3w7T7iFQb/M73VPP9V8=
 			</data>
 			<key>hash2</key>
 			<data>
-			1nJBOjhZVodjTJZDSTXVNrdtPdf0AOX969SzXfNdXng=
+			VAe2gf+jFsxm2BoABjyahKzbntqiTWvZBiugqElAdcs=
 			</data>
 		</dict>
 		<key>Headers/CPCAdViewConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4WfIag6KmPAdAUsbiDVbLlJLat4=
+			i11BO38sdUwrELp47R26ZwkB2yQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			WObUM/v3R8X1g5MCz1BG1yda12VAFVPVmlkcSC/K3QQ=
+			WaTA7BLdOo9yAn9TMPkCGlla+3lchdkQEAEXjQBhpMk=
 			</data>
 		</dict>
 		<key>Headers/CPCCoreServer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0jz7ejuz/l9QJEU+UNUl3NKTa9c=
+			TtWK6RBUJZBAPWM/aT/PBgUI/TE=
 			</data>
 			<key>hash2</key>
 			<data>
-			yKD+ndkucWAFC6VupEwQlWOg40QBdTuvz02i6lsSGqY=
+			s8nlZaVVZGUelr+6klsj1pfCyrfrhToHrDDx39HFo0Y=
 			</data>
 		</dict>
 		<key>Headers/CPCInitConfig.h</key>
@@ -162,11 +162,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KZz0PYRrlPmXJxRd4rFeIuKx7iU=
+			r51VwVGy18k9RMhEsiGzfWJXUr4=
 			</data>
 			<key>hash2</key>
 			<data>
-			keWNE9wjekBFbnA492nvKJgYGYKLoPSwbfS4eFM5jE4=
+			zIj1HD7LX0rh1xUOpjEZg+KHkCuzq6zshgSTcZQIs30=
 			</data>
 		</dict>
 		<key>Headers/CPCMobAdNativeAdView.h</key>
