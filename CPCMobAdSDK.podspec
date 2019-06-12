@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
-  s.version          = '0.1.0.94.0612.131.3' # 版本 , 日期 , 目标app版本 , 次数
+  s.version          = '0.1.1.0.0612.345.8' # 版本 , 日期 , 目标app版本 , 次数
   s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测'
 
 
@@ -39,6 +39,7 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
   s.dependency 'AFNetworking', '3.1.0'
   s.dependency 'WebViewJavascriptBridge', '6.0.3'
   s.dependency 'YYWebImage' ,'1.0.5'
+  s.dependency 'CPCBaiduMobAdSDK' ,'0.0.1'
 
 
 
