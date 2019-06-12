@@ -38,7 +38,6 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
 
   s.dependency 'AFNetworking', '3.1.0'
   s.dependency 'WebViewJavascriptBridge', '6.0.3'
-  s.dependency 'CPCBaiduMobAdSDK' ,'0.0.1'
   s.dependency 'YYWebImage' ,'1.0.5'
 
 
