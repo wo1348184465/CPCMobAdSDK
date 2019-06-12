@@ -22,7 +22,7 @@ typedef NS_ENUM(NSInteger , CPCVideoADViewType)
 
 @property (nonatomic , strong) NSString * adid; // 广告位
 
-@property (nonatomic , strong) UIViewController * push;
+@property (nonatomic , strong) UIViewController * pushRootVC;// 跳转跟视图
 
 @property(nonatomic, assign) float titleImageOffset; // 标题与图片的距离
 
