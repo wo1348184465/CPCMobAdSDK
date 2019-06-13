@@ -8,6 +8,7 @@
 
 #import <WebKit/WebKit.h>
 
+#define CPCWebView_VERSION @"1.0.1.0613.2"
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol CPCWebViewDelegate <NSObject>
@@ -38,6 +39,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 - (void)userContentController:(WKUserContentController *)userContentController didReceiveScriptMessage:(WKScriptMessage *)message;
+
+
+- (void)willClose;
+
+
 
 @end
 
