@@ -15,8 +15,8 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '丁昊' => 'dinghao@qutoutiao.net' }
-  # s.source           = { :git => 'https://github.com/wo1348184465/CPCMobAdSDK.git', :tag => s.version.to_s }
-  s.source           = { :git => 'git@github.com:wo1348184465/CPCMobAdSDK.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wo1348184465/CPCMobAdSDK.git', :tag => s.version.to_s }
+  # s.source           = { :git => 'git@github.com:wo1348184465/CPCMobAdSDK.git', :tag => s.version.to_s }
 
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
