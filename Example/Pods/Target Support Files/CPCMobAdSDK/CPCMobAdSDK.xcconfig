@@ -1,7 +1,8 @@
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/CPCMobAdSDK
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/WebViewJavascriptBridge" "${PODS_CONFIGURATION_BUILD_DIR}/YYCache" "${PODS_CONFIGURATION_BUILD_DIR}/YYImage" "${PODS_CONFIGURATION_BUILD_DIR}/YYWebImage" "${PODS_ROOT}/../../CPCMobAdSDK" "${PODS_ROOT}/../../CPCMobAdSDK/CPCH5SDK" "${PODS_ROOT}/CPCBaiduMobAdSDK/CPCBaiduMobAdSDK"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../CPCMobAdSDK/Library"
+OTHER_LDFLAGS = $(inherited) -l"RCTActionSheet" -l"RCTAnimation" -l"RCTBlob" -l"RCTNetwork" -l"RCTSettings" -l"RCTText" -l"RCTWebSocket" -l"React" -l"c++" -l"cxxreact" -l"double-conversion" -l"jsi" -l"jsiexecutor" -l"jsinspector" -l"third-party" -l"yoga" -framework "AVFoundation" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreMotion" -framework "CoreTelephony" -framework "Foundation" -framework "MessageUI" -framework "SystemConfiguration" -framework "UIKit" -framework "WebKit" -framework "adSupport"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_ROOT = ${SRCROOT}

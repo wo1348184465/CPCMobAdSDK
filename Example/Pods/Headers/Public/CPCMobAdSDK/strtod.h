@@ -1,1 +1,0 @@
-../../../../../CPCMobAdSDK/Library/double-conversion/strtod.h

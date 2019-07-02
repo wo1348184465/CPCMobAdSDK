@@ -48,13 +48,8 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
 
 
   s.vendored_frameworks = 'CPCMobAdSDK/*.{framework}'
-  
-  
-  
-  #s.source_files = 'CPCMobAdSDK/Library/*'
-  s.public_header_files = 'CPCMobAdSDK/Library/**/*.h'
   s.vendored_libraries = 'CPCMobAdSDK/Library/*.{a}'
-  s.static_framework = true
+  # s.static_framework = true
   
   
   

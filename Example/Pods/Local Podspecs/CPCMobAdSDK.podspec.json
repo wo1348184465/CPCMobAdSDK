@@ -54,9 +54,7 @@
     ]
   },
   "vendored_frameworks": "CPCMobAdSDK/*.{framework}",
-  "public_header_files": "CPCMobAdSDK/Library/**/*.h",
   "vendored_libraries": "CPCMobAdSDK/Library/*.{a}",
-  "static_framework": true,
   "subspecs": [
     {
       "name": "CPCH5SDK",
