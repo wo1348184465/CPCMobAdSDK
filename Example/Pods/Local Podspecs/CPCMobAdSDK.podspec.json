@@ -24,6 +24,8 @@
       "CPCMobAdSDK/Assets/*.{jsbundle}"
     ]
   },
+  "source_files": "CPCMobAdSDK/Header/**/*",
+  "public_header_files": "CPCMobAdSDK/Header/**/*.h",
   "vendored_libraries": "CPCMobAdSDK/Library/*.{a}",
   "frameworks": [
     "UIKit",
