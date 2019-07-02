@@ -1,0 +1,1 @@
+../../../../../CPCMobAdSDK/Library/React/RCTActivityIndicatorViewManager.h

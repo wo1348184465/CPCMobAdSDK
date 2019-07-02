@@ -1,0 +1,1 @@
+../../../../../CPCMobAdSDK/Library/RCTText/RCTBaseTextViewManager.h

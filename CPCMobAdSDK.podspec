@@ -26,15 +26,11 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
 
 
   s.resource_bundles = {
-      # 'CPCMobAdSDK' => ['CPCMobAdSDK/Source/*.{png}']
        'CPCMobAdSDK' => ['CPCMobAdSDK/Assets/*.{xcassets}','CPCMobAdSDK/Assets/*.{jsbundle}']
 
 
   }
-  s.source_files = 'CPCMobAdSDK/Header/**/*'
-   s.public_header_files = 'CPCMobAdSDK/Header/**/*.h'
-   s.vendored_libraries = 'CPCMobAdSDK/Library/*.{a}'
-  # s.static_framework = true
+
   # s.vendored_libraries = ["cxxreact" ,"double-conversion" ,"jsi","jsiexecutor" ,"jsinspector" ,"RCTActionSheet", "RCTAnimation" ,"RCTBlob" ,"RCTNetwork", "RCTSettings", "RCTText", "RCTWebSocket" ,"React" ,"third-party" ,"yoga"]
 
   # s.frameworks = 'UIKit','Foundation'
@@ -51,7 +47,17 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
 
 
 
-  s.vendored_frameworks = 'CPCMobAdSDK/*.{framework}' 
+  s.vendored_frameworks = 'CPCMobAdSDK/*.{framework}'
+  
+  
+  
+  #s.source_files = 'CPCMobAdSDK/Library/*'
+  s.public_header_files = 'CPCMobAdSDK/Library/**/*.h'
+  s.vendored_libraries = 'CPCMobAdSDK/Library/*.{a}'
+  s.static_framework = true
+  
+  
+  
 
   s.subspec 'CPCH5SDK' do |ss|
       ss.vendored_frameworks = 'CPCMobAdSDK/CPCH5SDK/*.{framework}' 
