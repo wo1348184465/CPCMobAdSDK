@@ -136,6 +136,7 @@ int i = 0;
         UIView * adView = [[CPCCoreServer sharedInstance] cpcShowView:adViewModel setDelegate:self];
         [adView setBackgroundColor:[UIColor blackColor]];
         
+        [adView setFrame:CGRectMake(0, 0, self.view.frame.size.width, 100)];
         
         //            [adView setBackgroundColor:[UIColor grayColor ]];
         if (adView != nil) {
@@ -203,7 +204,7 @@ int i = 0;
     for (int i = 0; i < self.adViewArr.count; i++) {
         
         UIView * adView = [self.adViewArr objectAtIndex:i];
-        NSLog(@"更新后 =============== %f",[[CPCCoreServer sharedInstance] cpcConfigWithFont:adView font:[UIFont systemFontOfSize:fontSize]]);
+//        NSLog(@"更新后 =============== %f",[[CPCCoreServer sharedInstance] cpcConfigWithFont:adView font:[UIFont systemFontOfSize:fontSize]]);
     }
     
 }

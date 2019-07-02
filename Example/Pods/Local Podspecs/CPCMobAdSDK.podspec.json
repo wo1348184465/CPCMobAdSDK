@@ -1,6 +1,6 @@
 {
   "name": "CPCMobAdSDK",
-  "version": "0.1.0.90.0513",
+  "version": "0.1.2.0.0702.355.6",
   "summary": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测",
   "description": "CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测",
   "homepage": "https://github.com/wo1348184465/CPCMobAdSDK",
@@ -13,16 +13,18 @@
   },
   "source": {
     "git": "https://github.com/wo1348184465/CPCMobAdSDK.git",
-    "tag": "0.1.0.90.0513"
+    "tag": "0.1.2.0.0702.355.6"
   },
   "platforms": {
     "ios": "8.0"
   },
   "resource_bundles": {
     "CPCMobAdSDK": [
-      "CPCMobAdSDK/Assets/*.{xcassets}"
+      "CPCMobAdSDK/Assets/*.{xcassets}",
+      "CPCMobAdSDK/Assets/*.{jsbundle}"
     ]
   },
+  "vendored_libraries": "CPCMobAdSDK/Library/*.{a}",
   "frameworks": [
     "UIKit",
     "MessageUI",
@@ -45,11 +47,11 @@
     "WebViewJavascriptBridge": [
       "6.0.3"
     ],
-    "CPCBaiduMobAdSDK": [
-      "0.0.1"
-    ],
     "YYWebImage": [
       "1.0.5"
+    ],
+    "CPCBaiduMobAdSDK": [
+      "0.0.1"
     ]
   },
   "vendored_frameworks": "CPCMobAdSDK/*.{framework}",
