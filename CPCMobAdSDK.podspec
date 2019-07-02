@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
-  s.version          = '0.1.2.0.0702.346.1' # 版本 , 日期 , 目标app版本 , 次数
+  s.version          = '0.1.2.0.0702.355.2' # 版本 , 日期 , 目标app版本 , 次数
   s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测'
 
 
@@ -27,11 +27,14 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
 
   s.resource_bundles = {
       # 'CPCMobAdSDK' => ['CPCMobAdSDK/Source/*.{png}']
-       'CPCMobAdSDK' => ['CPCMobAdSDK/Assets/*.{xcassets}','CPCMobAdSDK/Assets/*.{a}']
+       'CPCMobAdSDK' => ['CPCMobAdSDK/Assets/*.{xcassets}','CPCMobAdSDK/Assets/*.{jsbundle}']
 
 
   }
-  s.vendored_libraries = ["cxxreact" ,"double-conversion" ,"jsi","jsiexecutor" ,"jsinspector" ,"RCTActionSheet", "RCTAnimation" ,"RCTBlob" ,"RCTNetwork", "RCTSettings", "RCTText", "RCTWebSocket" ,"React" ,"third-party" ,"yoga"]
+
+  s.vendored_libraries = 'CPCMobAdSDK/Library/*.{a}'
+
+  # s.vendored_libraries = ["cxxreact" ,"double-conversion" ,"jsi","jsiexecutor" ,"jsinspector" ,"RCTActionSheet", "RCTAnimation" ,"RCTBlob" ,"RCTNetwork", "RCTSettings", "RCTText", "RCTWebSocket" ,"React" ,"third-party" ,"yoga"]
 
   # s.frameworks = 'UIKit','Foundation'
   # s.public_header_files = 'Pod/Classes/**/*.h'
