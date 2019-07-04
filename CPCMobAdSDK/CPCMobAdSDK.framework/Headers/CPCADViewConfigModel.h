@@ -83,6 +83,7 @@
 @property (nonatomic, assign) int  countdown;//
 
 
+- (CGFloat )heightWithTitleFont;
 
 
 @end

@@ -44,7 +44,9 @@ typedef NS_ENUM(NSInteger , CPCVideoADViewType)
 
 @property (nonatomic , assign) CGFloat aspectRatio; // 高宽比
 
-@property (nonatomic, assign) NSString * time;// 
+@property (nonatomic, assign) NSString * time;//
+
+
 
 @property (nonatomic, assign) int  isNewStyle;//
 @property (nonatomic, assign) int  countdown;//
