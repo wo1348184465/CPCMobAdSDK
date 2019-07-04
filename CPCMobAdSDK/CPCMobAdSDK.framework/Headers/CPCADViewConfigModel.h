@@ -26,7 +26,7 @@
 
 @property (nonatomic, strong) NSObject * baiduAdObject;
 
-
+@property (nonatomic , strong) NSDictionary * response;
 
 //------------------------------百度 打底------------------------------//
 
@@ -39,9 +39,11 @@
 @property (nonatomic , strong) NSObject * adViewModel; //物料信息, 不对外展示
 @property (nonatomic , weak) UIViewController * pushRootVC; //用于跳转跟视图
 
+@property (nonatomic , copy) void(^heightChange)(CGFloat size);
 
 
 @property (nonatomic , assign) CGFloat cellHeight; //广告高度
+
 
 @property (nonatomic , assign) CGFloat heightForWith;
 
@@ -81,6 +83,7 @@
 @property (nonatomic, assign) int  countdown;//
 
 
+- (CGFloat )heightWithTitleFont;
 
 
 @end

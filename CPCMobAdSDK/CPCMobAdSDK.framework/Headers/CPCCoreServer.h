@@ -16,7 +16,7 @@
 #import "CPCInitConfig.h"
 
 
-#define CPCMOBADSDK_VERSION @"0.1.1.0.0626.350.24" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.2.0.0702.355.8" // 互动, sketch
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -102,7 +102,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param font 要更新的Font
  
  */
-- (CGFloat)cpcConfigWithFont:(UIView *)adView font:(UIFont*)font;
+- (void)cpcConfigWithFont:(UIView *)adView font:(UIFont*)font viewHeight:(void(^)(CGFloat height))change;
 
 
 
@@ -133,14 +133,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
+// 通过
+- (CPCADViewConfigModel *)getChangeFontModel:(CPCADViewConfigModel *)model;
 
-/**
- 根据物料model , 计算ADView的高度 , 如果不用这个方法, 用ADView.frame.size.height 同样可以获取高度
- 
- @param adViewModel 物料model
- @return ADView的高度
- */
-- (CGFloat)cpcAdViewForHeight:(CPCADViewConfigModel *)adViewModel;
 
 
 
