@@ -51,7 +51,7 @@ typedef NS_ENUM(NSInteger , CPCVideoADViewType)
 @property (nonatomic, assign) int  isNewStyle;//
 @property (nonatomic, assign) int  countdown;//
 
-@property (nonatomic, assign) BOOL is180ms;
+@property (nonatomic, assign) BOOL isClose180ms;
 
 @property(nonatomic, assign) CPCVideoADViewType videoType; 
 
