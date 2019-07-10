@@ -8,25 +8,26 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+
 @interface CPCADViewConfigModel : NSObject
 
 //------------------------------百度 打底------------------------------//
 @property (nonatomic, assign) NSInteger flag;
 
 
-@property (nonatomic, strong) NSString * unionName;
+@property (nonatomic, copy) NSString * unionName;
 
-@property (nonatomic, strong) NSString * appid;
+@property (nonatomic, copy) NSString * appid;
 
-@property (nonatomic, strong) NSString * adslotid;
+@property (nonatomic, copy) NSString * adslotid;
 
-@property (nonatomic, strong) NSArray * imp;
+@property (nonatomic, copy) NSArray * imp;
 
-@property (nonatomic, strong) NSArray * clk;
+@property (nonatomic, copy) NSArray * clk;
 
 @property (nonatomic, strong) NSObject * baiduAdObject;
 
-@property (nonatomic , strong) NSDictionary * response;
+@property (nonatomic , copy) NSDictionary * response;
 
 //------------------------------百度 打底------------------------------//
 
@@ -39,7 +40,7 @@
 @property (nonatomic , strong) NSObject * adViewModel; //物料信息, 不对外展示
 @property (nonatomic , weak) UIViewController * pushRootVC; //用于跳转跟视图
 
-@property (nonatomic , copy) void(^heightChange)(CGFloat size);
+@property (nonatomic , copy) void(^heightChange)(CGFloat height);
 
 
 @property (nonatomic , assign) CGFloat cellHeight; //广告高度
@@ -70,9 +71,9 @@
 @property(nonatomic, assign) UIEdgeInsets edgeInset;// 文字, 图片, 距离边框的距离
 
 
-@property (nonatomic , strong) NSString * channel; //频道id
+@property (nonatomic , copy) NSString * channel; //频道id
 
-@property (nonatomic , strong) NSString * memberid; //用户id
+@property (nonatomic , copy) NSString * memberid; //用户id
 
 
 @property (nonatomic , assign) CGFloat aspectRatio; // 高宽比

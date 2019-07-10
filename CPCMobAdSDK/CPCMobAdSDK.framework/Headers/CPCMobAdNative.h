@@ -15,7 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  广告位id
  */
-@property(nonatomic, strong) NSString *adId;
+@property(nonatomic, copy) NSString *adId;
 
 /**
  * 原生广告delegate

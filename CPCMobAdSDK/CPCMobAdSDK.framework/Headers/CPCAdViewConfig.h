@@ -20,7 +20,7 @@ typedef NS_ENUM(NSInteger , CPCVideoADViewType)
 @interface CPCAdViewConfig : NSObject
 
 
-@property (nonatomic , strong) NSString * adid; // 广告位
+@property (nonatomic , copy) NSString * adid; // 广告位
 
 @property (nonatomic , strong) UIViewController * pushRootVC;// 跳转跟视图
 
@@ -37,9 +37,9 @@ typedef NS_ENUM(NSInteger , CPCVideoADViewType)
 @property(nonatomic, assign) UIEdgeInsets edgeInset;// 文字, 图片, 距离边框的距离
 
 
-@property (nonatomic , strong) NSString * channel; //频道id
+@property (nonatomic , copy) NSString * channel; //频道id
 
-@property (nonatomic , strong) NSString * memberid; //用户id
+@property (nonatomic , copy) NSString * memberid; //用户id
 
 
 @property (nonatomic , assign) CGFloat aspectRatio; // 高宽比
@@ -51,7 +51,7 @@ typedef NS_ENUM(NSInteger , CPCVideoADViewType)
 @property (nonatomic, assign) int  isNewStyle;//
 @property (nonatomic, assign) int  countdown;//
 
-@property (nonatomic, assign) BOOL is180ms;
+@property (nonatomic, assign) BOOL isClose180ms;
 
 @property(nonatomic, assign) CPCVideoADViewType videoType; 
 

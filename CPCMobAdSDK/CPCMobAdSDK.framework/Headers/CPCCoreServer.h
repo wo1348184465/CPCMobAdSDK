@@ -16,7 +16,7 @@
 #import "CPCInitConfig.h"
 
 
-#define CPCMOBADSDK_VERSION @"0.1.2.0.0705.355.10" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.2.0.0710.360.15" // 互动, sketch
 
 
 
@@ -103,7 +103,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param font 要更新的Font
  
  */
-- (void)cpcConfigWithFont:(UIView *)adView font:(UIFont*)font viewHeight:(void(^)(CGFloat height))change;
+- (CGFloat )cpcConfigWithFont:(UIView *)adView font:(UIFont*)font;
 
 
 
