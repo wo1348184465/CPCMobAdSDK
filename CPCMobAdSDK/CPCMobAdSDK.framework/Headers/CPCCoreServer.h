@@ -16,7 +16,7 @@
 #import "CPCInitConfig.h"
 
 
-#define CPCMOBADSDK_VERSION @"0.1.2.0.0710.360.16" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.2.0.0710.360.17" // 互动, sketch
 
 
 
