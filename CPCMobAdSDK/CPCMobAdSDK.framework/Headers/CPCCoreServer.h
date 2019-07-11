@@ -16,7 +16,7 @@
 #import "CPCInitConfig.h"
 
 
-#define CPCMOBADSDK_VERSION @"0.1.2.0.0711.360.21" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.2.0.0711.360.22" // 互动, sketch
 
 
 
@@ -26,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 @property (nonatomic , weak) id<CPCADViewDelegate> delegate;
+
+
+@property (nonatomic , readonly) NSDictionary * adViewModelMap;
 
 
 @property (nonatomic , weak) id<CPCLaunchADViewDelegate> launchDelegate;

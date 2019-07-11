@@ -14,7 +14,6 @@
 //------------------------------百度 打底------------------------------//
 @property (nonatomic, assign) NSInteger flag;
 
-
 @property (nonatomic, copy) NSString * unionName;
 
 @property (nonatomic, copy) NSString * appid;
@@ -50,7 +49,7 @@
 
 @property (nonatomic , assign) CGFloat width;
 
-
+@property (nonatomic , weak) UIView * cpcAdView;
 
 @property (nonatomic , assign) long long requestTime; //请求时间
 
