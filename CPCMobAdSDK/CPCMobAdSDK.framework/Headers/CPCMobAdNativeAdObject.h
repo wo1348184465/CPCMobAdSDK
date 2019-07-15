@@ -55,7 +55,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic , assign) BOOL isLaunchAd;
 
 
-
+@property (nonatomic , copy) NSString * searchid;
 
 
 

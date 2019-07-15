@@ -28,6 +28,9 @@
 
 @property (nonatomic , copy) NSDictionary * response;
 
+@property (nonatomic, copy) NSString * searchid;
+
+
 //------------------------------百度 打底------------------------------//
 
 
