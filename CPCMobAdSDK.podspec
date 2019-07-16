@@ -36,7 +36,7 @@ CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视�
   #s.subspec 'BauduMobAdSDK' do |ss|
   s.frameworks = 'UIKit','MessageUI','CoreLocation','WebKit','CoreMedia' ,'Foundation','CoreMotion','SystemConfiguration','CoreLocation','CoreTelephony','adSupport','AVFoundation'
       #end
-  s.libraries = 'c++'
+  s.libraries = 'c++','xml2'
 
   s.dependency 'AFNetworking', '3.1.0'
   s.dependency 'WebViewJavascriptBridge', '6.0.3'
