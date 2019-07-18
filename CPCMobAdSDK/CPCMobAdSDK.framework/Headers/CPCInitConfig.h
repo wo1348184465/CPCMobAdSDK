@@ -13,8 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CPCInitConfig : NSObject
 
 
-@property (nonatomic , strong) NSString * tkid;
-@property (nonatomic , strong) NSString * tuid;
+@property (nonatomic , copy) NSString * tkid;
+@property (nonatomic , copy) NSString * tuid;
 
 
 

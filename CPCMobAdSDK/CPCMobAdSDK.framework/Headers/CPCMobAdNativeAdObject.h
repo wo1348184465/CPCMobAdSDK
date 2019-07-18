@@ -20,24 +20,24 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 // 视频第一帧
-@property (nonatomic , strong) NSString * adct_logo_url;
+@property (nonatomic , copy) NSString * adct_logo_url;
 
 
 // 标题
-@property (nonatomic , strong) NSString * adct_title;
+@property (nonatomic , copy) NSString * adct_title;
 
 // 描述
-@property (nonatomic , strong) NSString * adct_desc;
+@property (nonatomic , copy) NSString * adct_desc;
 
 // 落地页
-@property (nonatomic , strong) NSString * adct_c_url;
+@property (nonatomic , copy) NSString * adct_c_url;
 
 // 图片
-@property (nonatomic , strong) NSString * adct_url;
+@property (nonatomic , copy) NSString * adct_url;
 
 
 // 图片数组
-@property (nonatomic , strong) NSArray * adct_ext_urls;
+@property (nonatomic , copy) NSArray * adct_ext_urls;
 
 //图片宽度
 @property (nonatomic , assign) int adct_width;
@@ -46,10 +46,10 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic , assign) int adct_height;
 
 // 展示上报数组
-@property (nonatomic , strong) NSArray * adct_imp;
+@property (nonatomic , copy) NSArray * adct_imp;
 
 // 点击上报数组
-@property (nonatomic , strong) NSArray * adct_clk;
+@property (nonatomic , copy) NSArray * adct_clk;
 
 
 @property (nonatomic , assign) BOOL isLaunchAd;
@@ -57,7 +57,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-- (CPCMobAdNativeAdObject *)interpreterResponse:(id)responseObject;
+
+
+- (CPCMobAdNativeAdObject *)interpreterResponseV4:(id)responseObject;
 
 /**
  * 发送展现

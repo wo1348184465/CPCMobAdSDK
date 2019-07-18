@@ -16,7 +16,7 @@
 #import "CPCInitConfig.h"
 
 
-#define CPCMOBADSDK_VERSION @"0.1.0.94.0612.131.2" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.1.0.0718.1310.2" // 互动, sketch
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -30,7 +30,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic , weak) id<CPCLaunchADViewDelegate> launchDelegate;
 
 
-
 /**
  单例初始化
  
@@ -38,7 +37,6 @@ NS_ASSUME_NONNULL_BEGIN
  @return 单例对象
  */
 + (CPCCoreServer *)sharedInstance;
-
 
 // 开启定位
 - (void)startLocation;

@@ -14,15 +14,15 @@
 @property (nonatomic, assign) NSInteger flag;
 
 
-@property (nonatomic, strong) NSString * unionName;
+@property (nonatomic, copy) NSString * unionName;
 
-@property (nonatomic, strong) NSString * appid;
+@property (nonatomic, copy) NSString * appid;
 
-@property (nonatomic, strong) NSString * adslotid;
+@property (nonatomic, copy) NSString * adslotid;
 
-@property (nonatomic, strong) NSArray * imp;
+@property (nonatomic, copy) NSArray * imp;
 
-@property (nonatomic, strong) NSArray * clk;
+@property (nonatomic, copy) NSArray * clk;
 
 @property (nonatomic, strong) NSObject * baiduAdObject;
 
@@ -53,6 +53,34 @@
 
 @property (nonatomic , assign) int functionId; // 功能号
 //------------------------------广告基础属性------------------------------//
+
+
+@property(nonatomic, assign) float titleImageOffset; // 标题与图片的距离
+
+@property(nonatomic, assign) float imageOffset; //图片和图片之间的距离
+
+@property(nonatomic, assign) BOOL isRight; // 图文广告是否是右图广告
+
+@property(nonatomic, strong) UIFont * titleFont; //标题文字大小
+
+@property(nonatomic, assign) CGSize clickSize; // 点击区域, 不需要修改不用管
+
+@property(nonatomic, assign) UIEdgeInsets edgeInset;// 文字, 图片, 距离边框的距离
+
+
+@property (nonatomic , copy) NSString * channel; //频道id
+
+@property (nonatomic , copy) NSString * memberid; //用户id
+
+
+@property (nonatomic , assign) CGFloat aspectRatio; // 高宽比
+
+@property (nonatomic, copy) NSString * time;//
+
+@property (nonatomic, assign) int  isNewStyle;//
+@property (nonatomic, assign) int  countdown;//
+
+
 
 
 @end
