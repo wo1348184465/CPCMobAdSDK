@@ -14,15 +14,15 @@
 @property (nonatomic, assign) NSInteger flag;
 
 
-@property (nonatomic, strong) NSString * unionName;
+@property (nonatomic, copy) NSString * unionName;
 
-@property (nonatomic, strong) NSString * appid;
+@property (nonatomic, copy) NSString * appid;
 
-@property (nonatomic, strong) NSString * adslotid;
+@property (nonatomic, copy) NSString * adslotid;
 
-@property (nonatomic, strong) NSArray * imp;
+@property (nonatomic, copy) NSArray * imp;
 
-@property (nonatomic, strong) NSArray * clk;
+@property (nonatomic, copy) NSArray * clk;
 
 @property (nonatomic, strong) NSObject * baiduAdObject;
 
@@ -68,14 +68,14 @@
 @property(nonatomic, assign) UIEdgeInsets edgeInset;// 文字, 图片, 距离边框的距离
 
 
-@property (nonatomic , strong) NSString * channel; //频道id
+@property (nonatomic , copy) NSString * channel; //频道id
 
-@property (nonatomic , strong) NSString * memberid; //用户id
+@property (nonatomic , copy) NSString * memberid; //用户id
 
 
 @property (nonatomic , assign) CGFloat aspectRatio; // 高宽比
 
-@property (nonatomic, assign) NSString * time;//
+@property (nonatomic, copy) NSString * time;//
 
 @property (nonatomic, assign) int  isNewStyle;//
 @property (nonatomic, assign) int  countdown;//

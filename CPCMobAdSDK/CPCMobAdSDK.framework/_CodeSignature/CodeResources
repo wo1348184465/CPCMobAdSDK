@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/CPCADViewConfigModel.h</key>
 		<data>
-		LO8+Ltn1vUqADI6TH9frrgFItcc=
+		hLTwVqDTT0yz07j08p68EY7oQ0Y=
 		</data>
 		<key>Headers/CPCADViewDelegate.h</key>
 		<data>
@@ -14,15 +14,19 @@
 		</data>
 		<key>Headers/CPCAdViewConfig.h</key>
 		<data>
-		4WfIag6KmPAdAUsbiDVbLlJLat4=
+		ME1JRezIPBuWViJA1wVPRYAAgWQ=
 		</data>
 		<key>Headers/CPCCoreServer.h</key>
 		<data>
-		A6KxC6cY6vjMtQCtL9wzG49Ag2I=
+		z3aFvl4HuDFDkJkPthIpt/nfeEI=
+		</data>
+		<key>Headers/CPCH5ViewController.h</key>
+		<data>
+		SoPaKW970dYOZZPQ5aHgfNLCQVk=
 		</data>
 		<key>Headers/CPCInitConfig.h</key>
 		<data>
-		UrcZhpeV4MSH+KWQ4zPxdBh7h3M=
+		SHYmoq2FmqsyBprksLss3XHiaIU=
 		</data>
 		<key>Headers/CPCLaunchADViewDelegate.h</key>
 		<data>
@@ -34,7 +38,7 @@
 		</data>
 		<key>Headers/CPCMobAdNative.h</key>
 		<data>
-		xVIa5vYMfBhG/PoUaaLhm1P42Xg=
+		/CGUcLJv8f86bcFGIDxXfMvob/M=
 		</data>
 		<key>Headers/CPCMobAdNativeAdDelegate.h</key>
 		<data>
@@ -42,7 +46,7 @@
 		</data>
 		<key>Headers/CPCMobAdNativeAdObject.h</key>
 		<data>
-		KZz0PYRrlPmXJxRd4rFeIuKx7iU=
+		b1lnke+inbwYYAPNUnP2NOIMUOw=
 		</data>
 		<key>Headers/CPCMobAdNativeAdView.h</key>
 		<data>
@@ -63,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LO8+Ltn1vUqADI6TH9frrgFItcc=
+			hLTwVqDTT0yz07j08p68EY7oQ0Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			ygqKy8jIvhJzzZd4wKdonIov/aIi13DPGUObzw6pLL8=
+			th7DLKgWyZHXw9NIvYpSa5vex00vjGb6O26nZxSqjYU=
 			</data>
 		</dict>
 		<key>Headers/CPCADViewDelegate.h</key>
@@ -85,33 +89,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4WfIag6KmPAdAUsbiDVbLlJLat4=
+			ME1JRezIPBuWViJA1wVPRYAAgWQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			WObUM/v3R8X1g5MCz1BG1yda12VAFVPVmlkcSC/K3QQ=
+			lWapzXj3wmT/YR2H1Z1lZMQRiFOtHFh2ECCZreKgnSg=
 			</data>
 		</dict>
 		<key>Headers/CPCCoreServer.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			A6KxC6cY6vjMtQCtL9wzG49Ag2I=
+			z3aFvl4HuDFDkJkPthIpt/nfeEI=
 			</data>
 			<key>hash2</key>
 			<data>
-			JXoJyLHjjPYY+nR8uFhO3CDQRCBzDAkqkwh/LYLV8SU=
+			M88Bdu1Dx2tXr0vcux+d/8Oy4Ql2omOSsGiMm2WjLkI=
+			</data>
+		</dict>
+		<key>Headers/CPCH5ViewController.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			SoPaKW970dYOZZPQ5aHgfNLCQVk=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZBeVqa52yzuI50s6hurSLzYnN0IqoODttCIDS2Ewldw=
 			</data>
 		</dict>
 		<key>Headers/CPCInitConfig.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UrcZhpeV4MSH+KWQ4zPxdBh7h3M=
+			SHYmoq2FmqsyBprksLss3XHiaIU=
 			</data>
 			<key>hash2</key>
 			<data>
-			BVgtZwARGhzLYC/NBpYQYW/dHb1zUrI3LH7O/XO4YJ4=
+			7+KbqM1cyrsHr7m6yzM60wzaxGkY0rIvGt9sfQf490U=
 			</data>
 		</dict>
 		<key>Headers/CPCLaunchADViewDelegate.h</key>
@@ -140,11 +155,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xVIa5vYMfBhG/PoUaaLhm1P42Xg=
+			/CGUcLJv8f86bcFGIDxXfMvob/M=
 			</data>
 			<key>hash2</key>
 			<data>
-			MrF4y/927qjbai+8DjtvHxEyk0tAm8brzpMJr+XJJjY=
+			XZqwZpyZLOIzKFG9K8hUOCGzMznOBJUijK/YV79PRD8=
 			</data>
 		</dict>
 		<key>Headers/CPCMobAdNativeAdDelegate.h</key>
@@ -162,11 +177,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KZz0PYRrlPmXJxRd4rFeIuKx7iU=
+			b1lnke+inbwYYAPNUnP2NOIMUOw=
 			</data>
 			<key>hash2</key>
 			<data>
-			keWNE9wjekBFbnA492nvKJgYGYKLoPSwbfS4eFM5jE4=
+			Fe3UW48KARr8jrqJN9CUMsreIKi5jl/fr6XcOKgR0cA=
 			</data>
 		</dict>
 		<key>Headers/CPCMobAdNativeAdView.h</key>
