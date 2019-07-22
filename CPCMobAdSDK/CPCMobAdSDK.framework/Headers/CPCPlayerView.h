@@ -42,6 +42,9 @@ typedef void(^AVPlayerItemFinishedBlock)(void); //播放完成回调
 // 是否重复播放
 @property (nonatomic , assign) BOOL isRePlay;
 
+// 是否允许背景声
+
+@property (nonatomic , assign) BOOL isAllowBackgroundSound;
 
 // 是否自动播放
 @property (nonatomic , assign) BOOL isAutoPlay;
