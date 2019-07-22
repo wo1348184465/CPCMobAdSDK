@@ -18,7 +18,9 @@ typedef NS_ENUM(NSInteger, TouchPlayerViewMode) {
     TouchPlayerViewModeUnknow, // 未知
 };
 
-typedef void(^AVPlayerItemReadyToPlayBlock)(void);
+typedef void(^AVPlayerItemReadyToPlayBlock)(void); // 准备播放的回调
+
+typedef void(^AVPlayerItemFinishedBlock)(void); //播放完成回调
 
 @interface CPCPlayerView : UIView
 
@@ -30,8 +32,18 @@ typedef void(^AVPlayerItemReadyToPlayBlock)(void);
 @property (nonatomic, strong) AVPlayerLayer *playerLayer;
 @property (nonatomic, strong) NSURL * url;
 @property (strong, nonatomic) UISlider *playProgress; // 播放进度
+
 @property (strong, nonatomic) AVPlayerItem * playerItem;
+
 @property (nonatomic, copy, nullable) AVPlayerItemReadyToPlayBlock playerItemReadyToPlayBlock;
+@property (nonatomic, copy, nullable) AVPlayerItemFinishedBlock playerItemFinishedBlock;
+
+
+// 是否重复播放
+@property (nonatomic , assign) BOOL isRePlay;
+
+
+// 是否自动播放
 @property (nonatomic , assign) BOOL isAutoPlay;
 // 播放状态
 @property (nonatomic, assign) BOOL isPlaying;
@@ -60,7 +72,7 @@ typedef void(^AVPlayerItemReadyToPlayBlock)(void);
 // 暂停
 - (void)pause;
 
-
+- (void)rePlay;
 
 @end
 
