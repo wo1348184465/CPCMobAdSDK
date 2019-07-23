@@ -22,9 +22,12 @@ typedef void(^AVPlayerItemReadyToPlayBlock)(void); // 准备播放的回调
 
 typedef void(^AVPlayerItemFinishedBlock)(void); //播放完成回调
 
+typedef void(^AVPlayerItemPlayTimeBlock)(void); //播放到当前的时间
+
 @interface CPCPlayerView : UIView
 
 @property (nonatomic , assign)         int isRealPlay; // 是否正在播放
+
 
 
 // AVPlayer 控制视频播放
@@ -76,6 +79,9 @@ typedef void(^AVPlayerItemFinishedBlock)(void); //播放完成回调
 - (void)pause;
 
 - (void)rePlay;
+
++ (CPCPlayerView *)sharedInstance;
+
 
 @end
 
