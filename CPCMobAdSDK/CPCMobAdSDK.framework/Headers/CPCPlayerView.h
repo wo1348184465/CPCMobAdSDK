@@ -22,7 +22,7 @@ typedef void(^AVPlayerItemReadyToPlayBlock)(void); // 准备播放的回调
 
 typedef void(^AVPlayerItemFinishedBlock)(void); //播放完成回调
 
-typedef void(^AVPlayerItemPlayTimeBlock)(void); //播放到当前的时间
+typedef void(^AVPlayerItemPlayTimeBlock)(float realTime); //播放到当前的时间
 
 @interface CPCPlayerView : UIView
 
@@ -40,6 +40,8 @@ typedef void(^AVPlayerItemPlayTimeBlock)(void); //播放到当前的时间
 
 @property (nonatomic, copy, nullable) AVPlayerItemReadyToPlayBlock playerItemReadyToPlayBlock;
 @property (nonatomic, copy, nullable) AVPlayerItemFinishedBlock playerItemFinishedBlock;
+@property (nonatomic, copy, nullable) AVPlayerItemPlayTimeBlock playerItemPlayTimeBlock;
+
 
 
 // 是否重复播放
