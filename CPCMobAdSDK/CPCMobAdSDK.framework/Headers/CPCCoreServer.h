@@ -74,6 +74,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (BOOL)initWithCPCConfig:(CPCInitConfig *)config;
 
+
+
+
 - (void)test;
 
 
@@ -142,7 +145,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (CPCADViewConfigModel *)getChangeFontModel:(CPCADViewConfigModel *)model;
 
 
-
+- (void)startPlayVideo:(UIView *)adView;
 
 /**
  传入物料, 判断是否过期
