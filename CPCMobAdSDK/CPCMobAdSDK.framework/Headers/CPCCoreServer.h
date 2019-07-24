@@ -16,7 +16,7 @@
 #import "CPCInitConfig.h"
 
 
-#define CPCMOBADSDK_VERSION @"0.1.3.1.0723.365.07" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.3.1.0723.365.08" // 互动, sketch
 
 
 
@@ -73,6 +73,9 @@ NS_ASSUME_NONNULL_BEGIN
  @return 是否成功初始化
  */
 - (BOOL)initWithCPCConfig:(CPCInitConfig *)config;
+
+
+
 
 - (void)test;
 
@@ -142,6 +145,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (CPCADViewConfigModel *)getChangeFontModel:(CPCADViewConfigModel *)model;
 
 
+- (void)startPlayVideo:(UIView *)adView;
+- (void)stopPauseVideo:(UIView *)adView;
 
 
 /**

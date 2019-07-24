@@ -62,6 +62,8 @@ typedef void(^AVPlayerItemPlayTimeBlock)(float realTime); //播放到当前的�
 // 是否锁屏
 @property (nonatomic, assign) BOOL isLock;
 
+@property (nonatomic , assign) BOOL isBarHidden;
+
 // 传入视频地址
 - (void)updatePlayerWithURL:(NSURL *)url;
 
