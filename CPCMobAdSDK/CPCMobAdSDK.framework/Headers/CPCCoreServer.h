@@ -146,6 +146,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 - (void)startPlayVideo:(UIView *)adView;
+- (void)stopPauseVideo:(UIView *)adView;
+
 
 /**
  传入物料, 判断是否过期
