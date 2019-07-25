@@ -16,7 +16,7 @@
 #import "CPCInitConfig.h"
 
 
-#define CPCMOBADSDK_VERSION @"0.1.3.1.0725.365.09" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.3.1.0725.365.10" // 互动, sketch
 
 
 
@@ -147,6 +147,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)startPlayVideo:(UIView *)adView;
 - (void)stopPauseVideo:(UIView *)adView;
+- (void)rePlayVideo:(UIView *)adView;
 
 
 /**
