@@ -64,6 +64,8 @@ typedef void(^AVPlayerItemPlayTimeBlock)(float realTime); //播放到当前的�
 
 @property (nonatomic , assign) BOOL isBarHidden;
 
+@property (nonatomic , assign) int traceTimeInt;
+
 // 传入视频地址
 - (void)updatePlayerWithURL:(NSURL *)url;
 
