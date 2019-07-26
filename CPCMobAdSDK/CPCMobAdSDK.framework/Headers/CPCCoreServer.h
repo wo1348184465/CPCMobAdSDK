@@ -16,12 +16,12 @@
 #import "CPCInitConfig.h"
 
 
-#define CPCMOBADSDK_VERSION @"0.1.3.1.0726.365.16" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.3.1.0726.365.17" // 互动, sketch
 
 
 
 
-NS_ASSUME_NONNULL_BEGIN 
+NS_ASSUME_NONNULL_BEGIN
 
 @interface CPCCoreServer : NSObject
 
