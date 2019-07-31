@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
-  s.version          = '0.1.3.1.0730.366.03' # 版本 , 日期 , 目标app版本 , 次数
+  s.version          = '0.1.3.1.0731.366.04' # 版本 , 日期 , 目标app版本 , 次数
   s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测'
 
 
