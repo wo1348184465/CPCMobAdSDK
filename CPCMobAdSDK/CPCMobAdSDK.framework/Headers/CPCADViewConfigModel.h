@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 
 @interface CPCADViewConfigModel : NSObject
-
+ 
 //------------------------------百度 打底------------------------------//
 @property (nonatomic, assign) NSInteger flag;
 
@@ -43,7 +43,7 @@
 @property (nonatomic , weak) UIViewController * pushRootVC; //用于跳转跟视图
 
 @property (nonatomic , copy) void(^heightChange)(CGFloat height);
-
+@property (nonatomic , copy) void(^viewRemoveEvent)(void);
 
 @property (nonatomic , assign) CGFloat cellHeight; //广告高度
 
