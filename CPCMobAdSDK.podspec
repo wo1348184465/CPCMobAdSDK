@@ -41,7 +41,6 @@ TODO: Add long description of the pod here.
   s.dependency 'AFNetworking', '3.1.0'
   s.dependency 'WebViewJavascriptBridge', '6.0.3'
   s.dependency 'YYWebImage' ,'1.0.5'
-  s.dependency 'CPCBaiduMobAdSDK' ,'0.0.1'
   s.dependency 'cpcReactNative' ,'0.1.5'
 
 
