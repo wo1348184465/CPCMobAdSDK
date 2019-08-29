@@ -17,7 +17,7 @@
 
 
 
-#define CPCMOBADSDK_VERSION @"0.1.3.3.0828.375.05" // 互动, sketch
+#define CPCMOBADSDK_VERSION @"0.1.3.3.0829.375.06" // 互动, sketch
 
 
 
