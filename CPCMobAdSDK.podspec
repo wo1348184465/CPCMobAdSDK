@@ -52,7 +52,7 @@ TODO: Add long description of the pod here.
   # s.subspec 'CPCH5SDK' do |ss|
   #     ss.vendored_frameworks = 'CPCMobAdSDK/CPCH5SDK/*.{framework}' 
 
-end
+# end
 
 end
 
