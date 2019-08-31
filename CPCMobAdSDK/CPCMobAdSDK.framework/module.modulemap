@@ -1,0 +1,17 @@
+framework module CPCMobAdSDK {
+  umbrella header "InnoSecureSDK.h"
+  umbrella header "CPCADViewConfigModel.h"
+  umbrella header "CPCADViewDelegate.h"
+  umbrella header "CPCAdViewConfig.h"
+  umbrella header "CPCCoreServer.h"
+  umbrella header "CPCCoreServer.m"
+  umbrella header "CPCInitConfig.h"
+  umbrella header "CPCLaunchADViewDelegate.h"
+  umbrella header "CPCLaunchAdViewConfig.h"
+  umbrella header "CPCMobAdNative.h"
+  umbrella header "CPCMobAdNativeAdView.h"
+  umbrella header "CPCMobAdNativeAdDelegate.h"
+  umbrella header "CPCMobAdNativeAdObject.h"
+  export *
+  module * { export * }
+}
