@@ -46,9 +46,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface CPCWebView : WKWebView
 
 
-@property (nonatomic , strong) NSString * url;
+@property (nonatomic , copy) NSString * url;
 
-@property (nonatomic , strong) NSString * memberid;
+@property (nonatomic , copy) NSString * memberid;
 
 @property (nonatomic , weak) id<CPCWebViewDelegate> CPCWebDelegate;
 
