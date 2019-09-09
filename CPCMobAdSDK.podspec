@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CPCMobAdSDK'
 
-  s.version          = '0.1.3.3.0905.372.01' # 版本 , 日期 , 目标app版本 , 次数
+  s.version          = '0.1.3.3.0909.385.01' # 版本 , 日期 , 目标app版本 , 次数
   s.summary          = 'CPCMobAdSDK 广告SDK , 包含 :多图 ,图文 ,大图 ,横幅 ,文字链 ,视频 ,开屏 , 增加彩蛋 , 百度打底 , 支持gif , 新增过期检测'
 
 
@@ -43,7 +43,10 @@ TODO: Add long description of the pod here.
   s.dependency 'WebViewJavascriptBridge', '6.0.3'
   s.dependency 'YYWebImage' ,'1.0.5'
   s.dependency 'cpcReactNative' ,'0.1.5'
-  s.dependency 'CPCBaiduMobAdSDK' ,'0.0.1'
+  # s.dependency 'CPCBaiduMobAdSDK' ,'0.0.1'
+  s.dependency 'InnoSecureSDK'
+  s.dependency 'InnoAntiSpamSDK' ,'2.4.6.190826'
+
 
 
 
