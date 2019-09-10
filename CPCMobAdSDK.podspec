@@ -45,7 +45,7 @@ TODO: Add long description of the pod here.
   s.dependency 'cpcReactNative' ,'0.1.5'
   # s.dependency 'CPCBaiduMobAdSDK' ,'0.0.1'
   s.dependency 'InnoSecureSDK'
-  s.dependency 'InnoAntiSpamSDK' ,'2.4.6.190826'
+  s.dependency 'InnoAntiSpamSDK' 
 
 
 
