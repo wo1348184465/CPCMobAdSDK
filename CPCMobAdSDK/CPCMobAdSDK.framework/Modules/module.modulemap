@@ -1,0 +1,6 @@
+framework module CPCMobAdSDK {
+  umbrella header "CPCMobAdSDK.h"
+
+  export *
+  module * { export * }
+}
